@@ -2,6 +2,9 @@
 
 **IMAGE → GEOMETRY → RESPONSE**
 
+**Live application:** https://wlululu.github.io/cephalo-silk-structural-lab/
+**Source repository:** https://github.com/wlululu/cephalo-silk-structural-lab
+
 A standalone browser research application containing three independent, existing structural cases:
 
 - **01 Twin-Arch Web Bridge** — hybrid frame and tension-only cable/web system.
@@ -21,7 +24,7 @@ This conversion changes deployment plumbing only. Geometry, authoritative model 
 
 ## Installation and local development
 
-Clone your LAMM repository, or extract the release folder, then run in its root:
+Clone this repository, or extract the standalone source bundle, then run in its root:
 
 ```bash
 npm install
@@ -51,17 +54,18 @@ node scripts/serve-static.mjs
 
 Open **http://localhost:8000/**. The optional existing Python server (`python3 scripts/serve-local.py`) serves the same folder. Use HTTP, not a double-clicked `file://` page: ES modules and analysis workers require an HTTP origin.
 
-## Deploy to a public LAMM GitHub repository / GitHub Pages
+## GitHub Pages deployment
 
-GitHub Pages is supported for a repository site, an organization/user root site, and a custom domain. The single production build uses `base: './'`; app assets, concept images, iframe documents, source downloads and the bridge worker resolve beneath the current app directory. Native case imports and downloads remain document-relative. No repository-name substitution in source code is required.
+The application is publicly deployed at https://wlululu.github.io/cephalo-silk-structural-lab/ from this repository. The production build uses `base: './'`, so app assets, case routes, workers, and downloads resolve under the repository site path; no repository-name changes in the source are required.
 
-1. Create the intended **public repository under the LAMM organization** and commit this project at its root, including `package-lock.json`, `public/`, `validation/` and `.github/workflows/pages.yml`. Do not commit `node_modules/`, generated `dist/` or `test-output/`.
-2. Use a `main` branch, or change the workflow's branch filter to your chosen branch.
-3. In repository **Settings → Pages**, select **GitHub Actions** as the source. Ensure organization settings permit the included Actions and Pages deployment.
-4. Push to `main`, or run **Deploy standalone lab to GitHub Pages** manually in the Actions tab. It runs `npm ci`, `npm run build`, and `npm test`, then publishes only `dist/`.
-5. Open the URL reported by the deployment job. Case fragments remain `#/bridge`, `#/loop-towers`, and `#/pavilion` after that URL's trailing slash.
+For subsequent deployments:
 
-The workflow uses the standard GitHub-provided token with `contents: read`, `pages: write` and `id-token: write`; no personal access token or OpenAI secret is needed. GitHub authentication is only for maintaining/deploying the repository; visitors to the public static app need no account. `.nojekyll` is included for hosts using branch-based Pages publication. The workflow and repository are prepared; no public LAMM repository was created or published as part of this conversion.
+1. In repository **Settings → Pages**, select **GitHub Actions** as the publishing source.
+2. Push a reviewed change to `main`, or manually run **Deploy standalone lab to GitHub Pages** in the Actions tab.
+3. The workflow runs `npm ci`, `npm run build`, and `npm test`, then publishes the generated `dist/` directory.
+4. Open the live site above. The case routes remain `#/bridge`, `#/loop-towers`, and `#/pavilion`.
+
+The workflow uses GitHub-provided permissions (`contents: read`, `pages: write`, and `id-token: write`) and requires no personal access token or OpenAI secret. Visitors to the public application do not need an account. A fork or organization mirror can use the same relative-path build with its own GitHub Pages settings.
 
 Any conventional static host can serve the **contents of `dist/`** at `/` or a directory such as `/cephalo-structural-lab/`. Use a trailing slash on directory URLs, serve `.js` and `.mjs` as JavaScript, and allow same-origin workers and iframe documents. Do not route missing module URLs to an HTML fallback. No SPA rewrite rules, server functions, API routes or host-specific headers are needed.
 
