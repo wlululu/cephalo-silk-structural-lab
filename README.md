@@ -21,6 +21,7 @@ This conversion changes deployment plumbing only. Geometry, authoritative model 
 - npm, included with Node; npm 11.9.0 was tested. Use the committed `package-lock.json` for repeatable installs.
 - A modern browser supporting ES modules and module workers. WebGL provides the normal rendering path; the existing software renderer remains available when WebGL is unavailable.
 - Internet access to the public npm registry for initial dependency installation. **Python is not needed for installation, development, build or the standalone preservation tests.** Historical research scripts may separately require Python 3.
+- Python 3 (standard library only) is required for the Blender API compatibility regression in `npm test` / `npm run test:blender`; Blender itself is not required for that mocked API check.
 
 ## Installation and local development
 
@@ -175,3 +176,67 @@ All full baseline and representative control-change result objects matched exact
 The completed study remains at `validation/physics/`, including every individual run, CSV summary, JSON results and report. Existing historical test/study scripts and source manifests are preserved as research records; they are not build dependencies and may describe pre-conversion paths or files. Do not run them with overwrite options to validate this deployment conversion. The supported conversion tests above write to a separate directory.
 
 `reproducibility/` contains the conversion verification evidence. `CONVERSION_NOTES.md` explicitly lists removed/replaced infrastructure and dependencies, every modified/added/deleted file, tested commands, browser coverage and limitations. The original `INTEGRATION_NOTES.md` and original case READMEs remain historical records.
+
+
+### Optional Blender visualization export
+
+Each case provides **Export Blender Package** in its Reset / Export controls. The downloaded ZIP contains `scene.glb`, the authoritative structural nodes/member model, active UI parameters, optional current unchanged-solver response, Blender's setup script (`open_in_blender.py`), metadata and explanations. The Bridge uses the existing exact Three.js geometry factory. Loop Towers and Pavilion have small standalone export adapters that reuse their original model and solver modules; they also include separately labeled visual surfaces and fine Pavilion woven display lines (not FE elements). Nonstructural Tower planting and circulation decorations are not exported.
+
+#### Method 1 — Direct Import in Blender (Quick Start)
+
+1. In Bridge, Loop Towers or Pavilion, click **Export Blender Package**, then extract the downloaded ZIP.
+2. Open Blender and choose **File → Import → glTF 2.0 (.glb/.gltf)**.
+3. Select `scene.glb` in the extracted folder and click **Import glTF 2.0**.
+4. Inspect the model in the 3D viewport. Drag with the middle mouse button to rotate, scroll to zoom, and use Shift + middle mouse button to pan; the viewport navigation controls provide alternatives.
+
+Direct GLB import does **not** automatically reproduce the standardized camera, materials, lighting, background or import audit. Separately captured visualization layers in JSON are reconstructed by the automated helper below, not by direct GLB import.
+
+#### Method 2 — Automated Import and Rendering (Recommended for Reproducibility)
+
+Extract the ZIP, open Terminal, and change into the extracted package folder. Run the included `open_in_blender.py` using Blender's background mode. No separate Python installation or scripting experience is needed for this workflow; Blender runs the script with its bundled Python.
+
+**Blender available as `blender` on your PATH** (Bash/Zsh): replace the example folder path with your extracted folder, keeping the quotation marks.
+
+```bash
+cd "/absolute/path/to/extracted package"
+blender --background --factory-startup --python-exit-code 1 --python "./open_in_blender.py" -- "." --render
+```
+
+**Standard macOS installation in `/Applications/Blender.app`:** replace the example Downloads folder name if yours differs. Quotes preserve spaces and parentheses in paths.
+
+```bash
+cd "$HOME/Downloads/cephalo-silk-bridge-blender (1)"
+"/Applications/Blender.app/Contents/MacOS/Blender" --background --factory-startup --python-exit-code 1 --python "./open_in_blender.py" -- "." --render
+```
+
+The `-- "."` argument tells the helper to read the package in the current folder; `--render` requests a PNG. Keep the extracted files together. After the command finishes successfully, open `<case>-studio.blend` using Blender's **File → Open**. The same package folder contains:
+
+- `<case>-studio.blend`: the imported model and standardized scene, ready to inspect or adjust.
+- `<case>-render.png`: the **3000 × 2100** Cycles render (64 samples by default).
+- `blender-import-report.json`: the structural member coverage, groups, scale and endpoint-coordinate audit.
+
+Here `<case>` is `bridge`, `loop-towers` or `pavilion`; for example, `bridge-studio.blend` and `bridge-render.png`. Re-running the command writes the same output names.
+
+#### Package contents and scientific scope
+
+| File | Purpose |
+|---|---|
+| `scene.glb` | Undeformed exported geometry for direct glTF import. |
+| `structural_model.json` | Authoritative structural nodes, member connectivity and model definitions. |
+| `metadata.json` | Case identity, captured parameters/view, structural group counts, provenance and response availability. |
+| `response.json` | Response availability/status and, when available, unamplified nodal displacement vectors in metres. Check availability before using numerical values. |
+| `open_in_blender.py` | Corrected import, geometry-audit, scene-setup and rendering helper. |
+
+Additional files may include `solver_result.json` for a valid original-solver result, `solver_attempt.json` for an invalid attempt, and `visual_layers.json` for separately captured display geometry. Analytical members represent the structural model; display-only surfaces, woven strokes and other visualization geometry are not additional finite elements and must not be interpreted as contributing stiffness.
+
+The export captures the model/parameters at the instant the button is clicked. Bridge includes only its matching completed response. Towers and Pavilion run their unchanged original solver for the captured parameters. Unavailable, invalid or nonconverged results are explicitly unavailable; an invalid raw attempt is named `solver_attempt.json`. Structural GLB geometry remains undeformed, and response vectors are stored in metres without display amplification. Display surfaces are separated from analytical members.
+
+The helper sets up a perspective camera, neutral materials and lighting, and checks every imported structural member ID and endpoint against the source model. **Blender 4.5.3 LTS and 5.2.2 LTS were actually validated for all three baseline cases**, including imports, geometry audits, saved scenes and real PNG renders. Blender 4.5 uses a white compositor background; Blender 5.2 uses the compatibility path's opaque light-gray world background. Background brightness and illumination are not guaranteed to match across versions. Blender rendering and the import audit are visualization/geometry checks, **not mechanical validation**; numerical responses remain separate from the undeformed geometry.
+
+Original solvers, model definitions, workers and 102 provenance-protected files remain unchanged. Full baseline/modified packages can be regenerated with `node scripts/create-blender-examples.mjs test-output/blender-examples --variants`. Tests: `node tests/blender-package.mjs`, `npm test` and `npm run build`. The optional `--turntable` setting adds camera motion only, not a simulated dynamic response; this option and Blender 6 were not included in the 4.5/5.2 compatibility validation.
+
+Additional export checks: `node tests/blender-adapters.mjs` (actual legacy click handlers with Node DOM/Worker shims) and `node tests/blender-vite.mjs` (real Vite HTTP/module serving). These are not browser smoke tests. Local browser exports for all three cases, at baseline and modified parameters, passed the independent six-ZIP audit dated October 25, 2026 (`Cephalo_Silk_Six_Browser_Blender_Exports_Audit.md`, retained in the review evidence). The audit verifies package integrity, geometry counts, parameters and unamplified vectors against each included solver response. It does not establish camera/inspection/deformation behavior, responsive layout, other downloads, clean browser console/network logs, or complete pending/stale/failed-solve handling. Those checks and postdeployment smoke tests require separate sign-off. No remote deployment was performed during integration review.
+
+For Blender 5.x, Cycles is selected directly and the removed legacy compositor is bypassed; Blender 4.x retains its existing alpha-over-white compositor. Geometry and import audits are unchanged. In addition to the Linux runs of both validated versions, the same compatibility script was tested by the user on macOS Blender 5.2.2 LTS for all three cases (imports, audits, scene saves and renders).
+
+`npm run test:blender` runs the Python compatibility regression and all three export checks, and `npm test` includes this suite so the existing GitHub Pages workflow enforces it before deployment. The Python test exercises the actual helper's presentation code against strict version-specific API doubles; it is not a Blender import or render test. A successful CI run does not replace interactive browser acceptance checks. Pushing to `main` triggers the Pages workflow; obtain deployment approval before that push.

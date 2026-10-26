@@ -7,7 +7,7 @@ import {createStaticServer} from '../scripts/serve-static.mjs';
 const root=path.resolve(import.meta.dirname,'..'),dist=path.join(root,'dist');
 const hash=x=>createHash('sha256').update(x).digest('hex');
 const results=[];
-for(const prefix of ['/','/cephalo-structural-lab/']){
+for(const prefix of ['/','/cephalo-structural-lab/','/cephalo-silk-structural-lab/']){
  const server=await createStaticServer(dist,{prefix,port:0});
  try{
   const base=`http://127.0.0.1:${server.address().port}${prefix}`;
