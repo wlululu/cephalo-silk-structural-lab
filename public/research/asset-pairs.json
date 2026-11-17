@@ -1,0 +1,37 @@
+{
+  "purpose": "Public engineering schematics; subset of accepted standalone assets; no new geometry or rendering",
+  "groups": {
+    "H1_crown_geometry": [
+      "S_H0_H1_crown_H0",
+      "S_H0_H1_crown_H1",
+      "S_H0_H1_crown_overlay"
+    ],
+    "H2_bracing": [
+      "S_H0_H2_bracing_H0",
+      "S_H0_H2_bracing_H2",
+      "S_H0_H2_bracing_overlay"
+    ],
+    "H3_side_system": [
+      "S_H0_H3_side_H0",
+      "S_H0_H3_side_H3",
+      "S_H0_H3_side_overlay"
+    ],
+    "B1_inheritance": [
+      "S_H3_B1_extraction_context",
+      "S_B1_plan_inherited"
+    ],
+    "B1_new_idealized_restraints": [
+      "S_B1_plan_idealized",
+      "S_B1_support_DOF_key"
+    ],
+    "B1_comparator_candidate": [
+      "S_B1_plan_uniform",
+      "S_B1_plan_candidate"
+    ],
+    "B1_true_scale_sections": [
+      "S_B1_terminal_section_uniform",
+      "S_B1_terminal_section_candidate",
+      "S_B1_terminal_section_overlay"
+    ]
+  }
+}

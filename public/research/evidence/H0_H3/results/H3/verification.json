@@ -1,0 +1,342 @@
+{
+  "loaded_cross_solver": {
+    "translations_m": {
+      "max_absolute_difference": 5.68295410730002e-15,
+      "relative_L2_difference": 6.974342174362362e-14,
+      "absolute_floor": 1e-06,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "rotations_rad": {
+      "max_absolute_difference": 5.130444680201407e-16,
+      "relative_L2_difference": 3.425666861076166e-14
+    },
+    "reaction_force": {
+      "max_absolute_difference": 1.0717485565692186e-08,
+      "relative_L2_difference": 7.948883563639606e-15,
+      "absolute_floor": 1,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "reaction_moment": {
+      "max_absolute_difference": 1.8044374883174896e-09,
+      "relative_L2_difference": 5.675393533875957e-15,
+      "absolute_floor": 1,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "bilateral_frame_axial_N": {
+      "max_absolute_difference": 6.332993507385254e-08,
+      "relative_L2_difference": 2.0947218271443858e-14,
+      "absolute_floor": 1,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "bilateral_frame_force_N": {
+      "max_absolute_difference": 6.332993507385254e-08,
+      "relative_L2_difference": 2.4025786026844442e-14,
+      "absolute_floor": 1,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "bilateral_frame_moment_Nm": {
+      "max_absolute_difference": 1.25883161672391e-07,
+      "relative_L2_difference": 1.0585198557550064e-13,
+      "absolute_floor": 1,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "tension_only_cable_axial_N": {
+      "max_absolute_difference": 6.283516995608807e-08,
+      "relative_L2_difference": 1.7448833280640686e-13,
+      "absolute_floor": 1,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "tension_only_cable_force_N": {
+      "max_absolute_difference": 6.283516995608807e-08,
+      "relative_L2_difference": 1.7448833280640683e-13,
+      "absolute_floor": 1,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "tension_only_cable_moment_Nm": {
+      "max_absolute_difference": 0.0,
+      "relative_L2_difference": 0.0,
+      "absolute_floor": 1,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "slack_ids_symmetric_difference": [],
+    "strong_comparison_pass": true
+  },
+  "equilibrium": {
+    "js_loaded": {
+      "authored": {
+        "force_N": [
+          -8.913048077374697e-10,
+          -3.788954927586019e-09,
+          -1.127773430198431e-09
+        ],
+        "moment_Nm": [
+          -1.1452357284724712e-08,
+          -6.705522537231445e-08,
+          3.6635901778936386e-07
+        ],
+        "force_norm_N": 4.052465498117885e-09,
+        "moment_norm_Nm": 3.726211073633595e-07,
+        "force_gate_N": 0.84,
+        "moment_gate_Nm": 100.8,
+        "force_pass": true,
+        "moment_pass": true,
+        "normalization": "Fixed H0 8.4 MN and 8.4 MN x 120 m, each times 1e-7; same numerical scales at zero external load"
+      },
+      "deformed": {
+        "force_N": [
+          -8.913048077374697e-10,
+          -3.788954927586019e-09,
+          -1.127773430198431e-09
+        ],
+        "moment_Nm": [
+          -1.1452357284724712e-08,
+          -6.705522537231445e-08,
+          3.6635901778936386e-07
+        ],
+        "force_norm_N": 4.052465498117885e-09,
+        "moment_norm_Nm": 3.726211073633595e-07,
+        "force_gate_N": 0.84,
+        "moment_gate_Nm": 100.8,
+        "force_pass": true,
+        "moment_pass": true,
+        "normalization": "Fixed H0 8.4 MN and 8.4 MN x 120 m, each times 1e-7; same numerical scales at zero external load"
+      }
+    },
+    "js_prestress": {
+      "authored": {
+        "force_N": [
+          6.411028152797371e-09,
+          1.8829382497642655e-12,
+          2.1827872842550278e-11
+        ],
+        "moment_Nm": [
+          7.639755494892597e-10,
+          -9.313225746154785e-10,
+          4.788489604834467e-09
+        ],
+        "force_norm_N": 6.4110655882972966e-09,
+        "moment_norm_Nm": 4.937676890382113e-09,
+        "force_gate_N": 0.84,
+        "moment_gate_Nm": 100.8,
+        "force_pass": true,
+        "moment_pass": true,
+        "normalization": "Fixed H0 8.4 MN and 8.4 MN x 120 m, each times 1e-7; same numerical scales at zero external load"
+      },
+      "deformed": {
+        "force_N": [
+          6.411028152797371e-09,
+          1.8829382497642655e-12,
+          2.1827872842550278e-11
+        ],
+        "moment_Nm": [
+          7.639755494892597e-10,
+          -9.313225746154785e-10,
+          4.788489604834467e-09
+        ],
+        "force_norm_N": 6.4110655882972966e-09,
+        "moment_norm_Nm": 4.937676890382113e-09,
+        "force_gate_N": 0.84,
+        "moment_gate_Nm": 100.8,
+        "force_pass": true,
+        "moment_pass": true,
+        "normalization": "Fixed H0 8.4 MN and 8.4 MN x 120 m, each times 1e-7; same numerical scales at zero external load"
+      }
+    },
+    "opensees_loaded": {
+      "authored": {
+        "force_N": [
+          3.8562575355172157e-10,
+          -6.893969839438796e-10,
+          2.7124769985675812e-08
+        ],
+        "moment_Nm": [
+          -5.122274160385132e-09,
+          6.51925802230835e-09,
+          2.10711732506752e-08
+        ],
+        "force_norm_N": 2.7136269496728776e-08,
+        "moment_norm_Nm": 2.264360306787661e-08,
+        "force_gate_N": 0.84,
+        "moment_gate_Nm": 100.8,
+        "force_pass": true,
+        "moment_pass": true,
+        "normalization": "Fixed H0 8.4 MN and 8.4 MN x 120 m, each times 1e-7; same numerical scales at zero external load"
+      },
+      "deformed": {
+        "force_N": [
+          3.8562575355172157e-10,
+          -6.893969839438796e-10,
+          2.7124769985675812e-08
+        ],
+        "moment_Nm": [
+          -5.122274160385132e-09,
+          6.51925802230835e-09,
+          2.10711732506752e-08
+        ],
+        "force_norm_N": 2.7136269496728776e-08,
+        "moment_norm_Nm": 2.264360306787661e-08,
+        "force_gate_N": 0.84,
+        "moment_gate_Nm": 100.8,
+        "force_pass": true,
+        "moment_pass": true,
+        "normalization": "Fixed H0 8.4 MN and 8.4 MN x 120 m, each times 1e-7; same numerical scales at zero external load"
+      }
+    }
+  },
+  "independent_assembly_at_JS_fields": {
+    "js_loaded": {
+      "recomputed_free_residual_SI_norm": 3.8362178433181727e-07,
+      "reported_residual_SI_norm": 4.1265489847208673e-07,
+      "residual_norm_difference": 2.903311414026946e-08,
+      "max_reaction_component_difference_SI": 4.656612873077393e-10,
+      "max_cable_constitutive_force_difference_N": 3.684544935822487e-08,
+      "max_restrained_displacement_or_rotation": 0.0,
+      "cable_only_free_nodes": [],
+      "all_incident_cables_below_threshold_nodes": [],
+      "all_incident_cable_forces_exactly_zero_nodes": [],
+      "slack_threshold_N": 0.0001,
+      "note": "Small-force connectivity diagnostic, not an eigenvalue or global stability test; norm mixes N and N m as in source"
+    },
+    "js_prestress": {
+      "recomputed_free_residual_SI_norm": 1.06448057945007e-07,
+      "reported_residual_SI_norm": 1.368165174251936e-07,
+      "residual_norm_difference": 3.03684594801866e-08,
+      "max_reaction_component_difference_SI": 7.83620635047555e-09,
+      "max_cable_constitutive_force_difference_N": 2.3392203729599714e-08,
+      "max_restrained_displacement_or_rotation": 0.0,
+      "cable_only_free_nodes": [],
+      "all_incident_cables_below_threshold_nodes": [],
+      "all_incident_cable_forces_exactly_zero_nodes": [],
+      "slack_threshold_N": 0.0001,
+      "note": "Small-force connectivity diagnostic, not an eigenvalue or global stability test; norm mixes N and N m as in source"
+    }
+  },
+  "prestress_predictor_comparison": {
+    "status": "Earlier Python predictor diagnostic; separate native status in prestress investigation",
+    "python_residual_SI_norm": 7.313645134599264e-08,
+    "translations_all_nodes_m": {
+      "max_absolute_difference": 3.66720542821497e-15,
+      "relative_L2_difference": 1.869986840261152e-13,
+      "absolute_floor": 1e-06,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "translations_deck_m": {
+      "max_absolute_difference": 3.66720542821497e-15,
+      "relative_L2_difference": 1.8578743411585855e-13,
+      "absolute_floor": 1e-06,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "load_increment_deck_m": {
+      "max_absolute_difference": 7.854827899222983e-15,
+      "relative_L2_difference": 1.3121445401149235e-13,
+      "absolute_floor": 1e-06,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "js_cables": {
+      "total": 84,
+      "taut": 62,
+      "slack": 22
+    },
+    "python_cables": {
+      "total": 84,
+      "taut": 62,
+      "slack": 22
+    },
+    "slack_ids_symmetric_difference": [],
+    "cable_forces_N": {
+      "max_absolute_difference": 2.3388565750792623e-08,
+      "relative_L2_difference": 2.583842560836981e-13,
+      "absolute_floor": 1,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "translations_frame_nodes_m": {
+      "max_absolute_difference": 3.66720542821497e-15,
+      "relative_L2_difference": 1.869986840261152e-13,
+      "absolute_floor": 1e-06,
+      "relative_limit": 0.01,
+      "failing_components": 0,
+      "failing_indices": [],
+      "pass_strong": true
+    },
+    "different_slack_labels": []
+  },
+  "loaded_native_converged": true,
+  "js_loaded_residual": 4.1265489847208673e-07,
+  "js_prestress_residual": 1.368165174251936e-07,
+  "native_loaded_residual": 3.363089664592322e-07,
+  "source_convergence_history": {
+    "loaded": [
+      {
+        "loadFactor": 0,
+        "iterations": 5,
+        "residualNorm": 1.368165174251936e-07
+      },
+      {
+        "loadFactor": 0.25,
+        "iterations": 3,
+        "residualNorm": 2.3334082858701727e-07
+      },
+      {
+        "loadFactor": 0.5,
+        "iterations": 2,
+        "residualNorm": 2.985675624285262e-07
+      },
+      {
+        "loadFactor": 0.75,
+        "iterations": 2,
+        "residualNorm": 2.8194346268340996e-07
+      },
+      {
+        "loadFactor": 1,
+        "iterations": 2,
+        "residualNorm": 4.1265489847208673e-07
+      }
+    ],
+    "prestress": [
+      {
+        "loadFactor": 0,
+        "iterations": 5,
+        "residualNorm": 1.368165174251936e-07
+      }
+    ]
+  }
+}

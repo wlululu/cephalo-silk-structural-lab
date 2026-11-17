@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.4pt" height="381.6pt" viewBox="0 0 518.4 381.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T20:09:19.557426</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 381.6 
+L 518.4 381.6 
+L 518.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 50.18112 88.83648 
+L 115.49952 88.83648 
+" clip-path="url(#pcdb7084aa1)" style="fill: none; stroke: #526d7d; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 50.18112 126.61488 
+L 115.49952 126.61488 
+" clip-path="url(#pcdb7084aa1)" style="fill: none; stroke: #246395; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 50.18112 164.39328 
+L 115.49952 164.39328 
+" clip-path="url(#pcdb7084aa1)" style="fill: none; stroke: #c45c20; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 50.18112 202.17168 
+L 115.49952 202.17168 
+" clip-path="url(#pcdb7084aa1)" style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #b7442c; stroke-width: 3"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 50.18112 239.95008 
+L 115.49952 239.95008 
+" clip-path="url(#pcdb7084aa1)" style="fill: none; stroke: #008577; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 50.18112 277.72848 
+L 115.49952 277.72848 
+" clip-path="url(#pcdb7084aa1)" style="fill: none; stroke: #8556a8; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 14px; font-family: 'Liberation Sans'; text-anchor: start" x="141.62688" y="92.456792" transform="rotate(-0 141.62688 92.456792)">Unchanged / retained</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 14px; font-family: 'Liberation Sans'; text-anchor: start" x="141.62688" y="130.235192" transform="rotate(-0 141.62688 130.235192)">Reference / selected source</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 14px; font-family: 'Liberation Sans'; text-anchor: start" x="141.62688" y="168.013592" transform="rotate(-0 141.62688 168.013592)">Moved geometry (H1)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 14px; font-family: 'Liberation Sans'; text-anchor: start" x="141.62688" y="205.791992" transform="rotate(-0 141.62688 205.791992)">Removed in comparison (ghost)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 14px; font-family: 'Liberation Sans'; text-anchor: start" x="141.62688" y="243.570392" transform="rotate(-0 141.62688 243.570392)">Added members / idealized symbols</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 14px; font-family: 'Liberation Sans'; text-anchor: start" x="141.62688" y="281.348792" transform="rotate(-0 141.62688 281.348792)">Reduced section (B1+ terminal members)</text>
+   </g>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 18px; font-family: 'Liberation Sans'; text-anchor: middle" x="259.2" y="28.308375" transform="rotate(-0 259.2 28.308375)">Structural-difference visual conventions</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 12px; font-family: 'Liberation Sans'; text-anchor: middle" x="259.2" y="356.796" transform="rotate(-0 259.2 356.796)">Colors encode geometry/identity changes, never stress or utilization.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcdb7084aa1">
+   <rect x="41.472" y="68.688" width="435.456" height="251.856"/>
+  </clipPath>
+ </defs>
+</svg>

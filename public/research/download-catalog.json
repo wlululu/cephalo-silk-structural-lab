@@ -1,0 +1,473 @@
+{
+  "archive": {
+    "name": "cephalo-silk-research-data-minimal-v1.zip",
+    "bytes": 8078197,
+    "sha256": "c126cdebc4e9df20e7c0d64d81342549324720af7bd18c9d55e3e78ee08b6dd7"
+  },
+  "files": {
+    "asset-pairs.json": {
+      "tier": "website",
+      "archive_path": "research/asset-pairs.json"
+    },
+    "display-tables.json": {
+      "tier": "website",
+      "archive_path": "research/display-tables.json"
+    },
+    "evidence/B1_final26/execution/slot_01/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_01/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_02/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_02/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_03/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_03/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_04/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_04/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_05/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_05/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_06/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_06/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_07/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_07/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_08/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_08/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_09/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_09/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_10/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_10/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_11/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_11/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_12/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_12/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_13/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_13/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_14/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_14/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_15/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_15/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_16/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_16/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_17/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_17/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_18/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_18/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_19/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_19/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_20/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_20/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_21/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_21/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_22/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_22/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_23/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_23/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_24/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_24/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_25/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_25/raw.json"
+    },
+    "evidence/B1_final26/execution/slot_26/raw.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/execution/slot_26/raw.json"
+    },
+    "evidence/B1_final26/source/dependency_lock.json": {
+      "tier": "archive",
+      "archive_path": "research/evidence/B1_final26/source/dependency_lock.json"
+    },
+    "evidence/B1_final26/source/frozen_slot_definitions.json": {
+      "tier": "archive",
+      "archive_path": "research/evidence/B1_final26/source/frozen_slot_definitions.json"
+    },
+    "evidence/B1_final26/source/source_input_lock.json": {
+      "tier": "archive",
+      "archive_path": "research/evidence/B1_final26/source/source_input_lock.json"
+    },
+    "evidence/B1_final26/tables/all_26_calls.csv": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/tables/all_26_calls.csv"
+    },
+    "evidence/B1_final26/tables/all_parent_member_actions.csv": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/tables/all_parent_member_actions.csv"
+    },
+    "evidence/B1_final26/tables/all_response_safeguards.csv": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/tables/all_response_safeguards.csv"
+    },
+    "evidence/B1_final26/tables/all_support_reactions.csv": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/tables/all_support_reactions.csv"
+    },
+    "evidence/B1_final26/tables/independent_mesh_comparisons.csv": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/tables/independent_mesh_comparisons.csv"
+    },
+    "evidence/B1_final26/tables/shear_comparisons.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/B1_final26/tables/shear_comparisons.json"
+    },
+    "evidence/B1_protocol/protocol/acceptance_and_safeguard_matrix.csv": {
+      "tier": "archive",
+      "archive_path": "research/evidence/B1_protocol/protocol/acceptance_and_safeguard_matrix.csv"
+    },
+    "evidence/B1_protocol/protocol/final_26_call_manifest.csv": {
+      "tier": "archive",
+      "archive_path": "research/evidence/B1_protocol/protocol/final_26_call_manifest.csv"
+    },
+    "evidence/H0_H3/H0_H3_mechanics_comparison.csv": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/H0_H3_mechanics_comparison.csv"
+    },
+    "evidence/H0_H3/models/H0/model.v1.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/models/H0/model.v1.json"
+    },
+    "evidence/H0_H3/models/H1/model.v1.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/models/H1/model.v1.json"
+    },
+    "evidence/H0_H3/models/H2/model.v1.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/models/H2/model.v1.json"
+    },
+    "evidence/H0_H3/models/H3/model.v1.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/models/H3/model.v1.json"
+    },
+    "evidence/H0_H3/results/H0/js_loaded.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/results/H0/js_loaded.json"
+    },
+    "evidence/H0_H3/results/H0/js_prestress.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/results/H0/js_prestress.json"
+    },
+    "evidence/H0_H3/results/H0/verification.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/results/H0/verification.json"
+    },
+    "evidence/H0_H3/results/H1/js_loaded.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/results/H1/js_loaded.json"
+    },
+    "evidence/H0_H3/results/H1/js_prestress.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/results/H1/js_prestress.json"
+    },
+    "evidence/H0_H3/results/H1/verification.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/results/H1/verification.json"
+    },
+    "evidence/H0_H3/results/H2/js_loaded.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/results/H2/js_loaded.json"
+    },
+    "evidence/H0_H3/results/H2/js_prestress.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/results/H2/js_prestress.json"
+    },
+    "evidence/H0_H3/results/H2/verification.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/results/H2/verification.json"
+    },
+    "evidence/H0_H3/results/H3/js_loaded.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/results/H3/js_loaded.json"
+    },
+    "evidence/H0_H3/results/H3/js_prestress.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/results/H3/js_prestress.json"
+    },
+    "evidence/H0_H3/results/H3/verification.json": {
+      "tier": "website",
+      "archive_path": "research/evidence/H0_H3/results/H3/verification.json"
+    },
+    "evidence/PriorityA/tables/all_502_safeguards_by_configuration.csv": {
+      "tier": "archive",
+      "archive_path": "research/evidence/PriorityA/tables/all_502_safeguards_by_configuration.csv"
+    },
+    "evidence/PriorityA/tables/D_B_S_comparison.csv": {
+      "tier": "archive",
+      "archive_path": "research/evidence/PriorityA/tables/D_B_S_comparison.csv"
+    },
+    "evidence/PriorityA/tables/full_field_verification.csv": {
+      "tier": "archive",
+      "archive_path": "research/evidence/PriorityA/tables/full_field_verification.csv"
+    },
+    "evidence/PriorityA/tables/material_mass_by_group.csv": {
+      "tier": "archive",
+      "archive_path": "research/evidence/PriorityA/tables/material_mass_by_group.csv"
+    },
+    "evidence/PriorityA/tables/physical_equilibrium_and_applicability.csv": {
+      "tier": "archive",
+      "archive_path": "research/evidence/PriorityA/tables/physical_equilibrium_and_applicability.csv"
+    },
+    "evidence/PriorityA/tables/safeguard_counts.csv": {
+      "tier": "archive",
+      "archive_path": "research/evidence/PriorityA/tables/safeguard_counts.csv"
+    },
+    "evidence/R6_R7/original_R6_proposal/member_section_changes_01.csv": {
+      "tier": "archive",
+      "archive_path": "research/evidence/R6_R7/original_R6_proposal/member_section_changes_01.csv"
+    },
+    "evidence/R6_R7/original_R6_proposal/section_specification_01.json": {
+      "tier": "archive",
+      "archive_path": "research/evidence/R6_R7/original_R6_proposal/section_specification_01.json"
+    },
+    "evidence/R6_R7/R7_analysis_summary.json": {
+      "tier": "archive",
+      "archive_path": "research/evidence/R6_R7/R7_analysis_summary.json"
+    },
+    "evidence/R6_R7/R7_response_summary.csv": {
+      "tier": "archive",
+      "archive_path": "research/evidence/R6_R7/R7_response_summary.csv"
+    },
+    "FROZEN_RESPONSE_CATALOG.json": {
+      "tier": "website",
+      "archive_path": "research/FROZEN_RESPONSE_CATALOG.json"
+    },
+    "phase2_scientific_assets_v1/camera_presets.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/camera_presets.json"
+    },
+    "phase2_scientific_assets_v1/exports/B1_frozen_section_states.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/exports/B1_frozen_section_states.json"
+    },
+    "phase2_scientific_assets_v1/exports/B1_inherited_source_register.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/exports/B1_inherited_source_register.json"
+    },
+    "phase2_scientific_assets_v1/exports/B1_source_exterior.glb": {
+      "tier": "archive",
+      "archive_path": "research/phase2_scientific_assets_v1/exports/B1_source_exterior.glb"
+    },
+    "phase2_scientific_assets_v1/exports/H0/scene.glb": {
+      "tier": "archive",
+      "archive_path": "research/phase2_scientific_assets_v1/exports/H0/scene.glb"
+    },
+    "phase2_scientific_assets_v1/exports/H1/scene.glb": {
+      "tier": "archive",
+      "archive_path": "research/phase2_scientific_assets_v1/exports/H1/scene.glb"
+    },
+    "phase2_scientific_assets_v1/exports/H2/scene.glb": {
+      "tier": "archive",
+      "archive_path": "research/phase2_scientific_assets_v1/exports/H2/scene.glb"
+    },
+    "phase2_scientific_assets_v1/exports/H3/scene.glb": {
+      "tier": "archive",
+      "archive_path": "research/phase2_scientific_assets_v1/exports/H3/scene.glb"
+    },
+    "phase2_scientific_assets_v1/inputs/3_span_source_members.csv": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/3_span_source_members.csv"
+    },
+    "phase2_scientific_assets_v1/inputs/B1_frozen_summary.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/B1_frozen_summary.json"
+    },
+    "phase2_scientific_assets_v1/inputs/H0_member_id_map.v1.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/H0_member_id_map.v1.json"
+    },
+    "phase2_scientific_assets_v1/inputs/H0.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/H0.json"
+    },
+    "phase2_scientific_assets_v1/inputs/H1_member_id_map.v1.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/H1_member_id_map.v1.json"
+    },
+    "phase2_scientific_assets_v1/inputs/H1.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/H1.json"
+    },
+    "phase2_scientific_assets_v1/inputs/H2_member_id_map.v1.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/H2_member_id_map.v1.json"
+    },
+    "phase2_scientific_assets_v1/inputs/H2.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/H2.json"
+    },
+    "phase2_scientific_assets_v1/inputs/H3_member_id_map.v1.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/H3_member_id_map.v1.json"
+    },
+    "phase2_scientific_assets_v1/inputs/H3_metadata_erratum.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/H3_metadata_erratum.json"
+    },
+    "phase2_scientific_assets_v1/inputs/H3_node_id_map.v1.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/H3_node_id_map.v1.json"
+    },
+    "phase2_scientific_assets_v1/inputs/H3.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/H3.json"
+    },
+    "phase2_scientific_assets_v1/inputs/selected_3_span_source_nodes.csv": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/selected_3_span_source_nodes.csv"
+    },
+    "phase2_scientific_assets_v1/inputs/selected_boundary_and_excluded_connections.csv": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/selected_boundary_and_excluded_connections.csv"
+    },
+    "phase2_scientific_assets_v1/inputs/selections.json": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/selections.json"
+    },
+    "phase2_scientific_assets_v1/inputs/support_DOF_register.csv": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/inputs/support_DOF_register.csv"
+    },
+    "phase2_scientific_assets_v1/schematics/S_B1_plan_candidate.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_B1_plan_candidate.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_B1_plan_idealized.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_B1_plan_idealized.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_B1_plan_inherited.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_B1_plan_inherited.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_B1_plan_uniform.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_B1_plan_uniform.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_B1_support_DOF_key.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_B1_support_DOF_key.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_B1_terminal_section_candidate.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_B1_terminal_section_candidate.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_B1_terminal_section_overlay.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_B1_terminal_section_overlay.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_B1_terminal_section_uniform.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_B1_terminal_section_uniform.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H0_H1_crown_H0.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H0_H1_crown_H0.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H0_H1_crown_H1.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H0_H1_crown_H1.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H0_H1_crown_overlay.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H0_H1_crown_overlay.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H0_H2_bracing_H0.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H0_H2_bracing_H0.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H0_H2_bracing_H2.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H0_H2_bracing_H2.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H0_H2_bracing_overlay.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H0_H2_bracing_overlay.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H0_H3_side_H0.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H0_H3_side_H0.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H0_H3_side_H3.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H0_H3_side_H3.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H0_H3_side_overlay.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H0_H3_side_overlay.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H0_overall_centerlines.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H0_overall_centerlines.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H1_overall_centerlines.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H1_overall_centerlines.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H2_overall_centerlines.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H2_overall_centerlines.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H3_B1_extraction_context.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H3_B1_extraction_context.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_H3_overall_centerlines.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_H3_overall_centerlines.svg"
+    },
+    "phase2_scientific_assets_v1/schematics/S_visual_conventions.svg": {
+      "tier": "website",
+      "archive_path": "research/phase2_scientific_assets_v1/schematics/S_visual_conventions.svg"
+    },
+    "provenance.json": {
+      "tier": "website",
+      "archive_path": "research/provenance.json"
+    },
+    "SCIENTIFIC_SCOPE.md": {
+      "tier": "website",
+      "archive_path": "research/SCIENTIFIC_SCOPE.md"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "packages": {
+    "numpy": "2.3.5",
+    "openseespy": "3.7.1.2",
+    "openseespylinux": "3.7.1.2"
+  },
+  "native_version_required": "3.7.1",
+  "installed_files": [
+    {
+      "distribution": "openseespy",
+      "relative_path": "openseespy/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "distribution": "openseespy",
+      "relative_path": "openseespy/opensees/__init__.py",
+      "sha256": "b4c234a20c235bb4a8ed9f780a9ac2d5b2534c42ad499054882ba8c8e94bed1d",
+      "bytes": 736
+    },
+    {
+      "distribution": "openseespy",
+      "relative_path": "openseespy/postprocessing/ModelToJSON.py",
+      "sha256": "dfba560fb7e112720d0ad8f8b83549e3a8acf322d2e39b73d5feed3340286c31",
+      "bytes": 4401
+    },
+    {
+      "distribution": "openseespy",
+      "relative_path": "openseespy/postprocessing/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "distribution": "openseespy",
+      "relative_path": "openseespy/preprocessing/DiscretizeMember.py",
+      "sha256": "22cadfa331091f9ba98c946dff7f1139a32f0cc26a83bf55e0036312dd5c3b4c",
+      "bytes": 1716
+    },
+    {
+      "distribution": "openseespy",
+      "relative_path": "openseespy/preprocessing/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "distribution": "openseespylinux",
+      "relative_path": "openseespylinux/__init__.py",
+      "sha256": "a03f746f4b5476f383668e3de9528011d8d51a1e6806762c56018424d2cd6ea2",
+      "bytes": 381
+    },
+    {
+      "distribution": "openseespylinux",
+      "relative_path": "openseespylinux/lib/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "distribution": "openseespylinux",
+      "relative_path": "openseespylinux/lib/libblas.so.3",
+      "sha256": "60b5ceed1e3baaf483bd78efaacaa9974c40f70ffb6f90911c27a6a5ee1afcee",
+      "bytes": 445768
+    },
+    {
+      "distribution": "openseespylinux",
+      "relative_path": "openseespylinux/lib/libgfortran.so.4",
+      "sha256": "d87b8024db66386051efbabb393cce9b8a580bb9be6e461043f74fd7653c9894",
+      "bytes": 1959960
+    },
+    {
+      "distribution": "openseespylinux",
+      "relative_path": "openseespylinux/lib/libgomp.so.1",
+      "sha256": "52f2fd740a867ec93bb8404372f6c6e06690be52933911517fd03f16ac5fd322",
+      "bytes": 191744
+    },
+    {
+      "distribution": "openseespylinux",
+      "relative_path": "openseespylinux/lib/liblapack.so.3",
+      "sha256": "9ec1518566c75637d7f41b375a199f108bde9b59d43a3aefceb51648502e1d18",
+      "bytes": 6936320
+    },
+    {
+      "distribution": "openseespylinux",
+      "relative_path": "openseespylinux/lib/libquadmath.so.0",
+      "sha256": "9dd08b420f6be18d4bb550196dd519fbea031e4015e39059cac2243a4f919f0f",
+      "bytes": 261232
+    },
+    {
+      "distribution": "openseespylinux",
+      "relative_path": "openseespylinux/opensees.so",
+      "sha256": "b0985e344fb76d2f445c2b3046c37676aa02d8c632d66345a4bc927a56fee25f",
+      "bytes": 173953280
+    }
+  ],
+  "python_executable_sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7",
+  "node_executable_sha256": "61ab14cd750fc24d5db53490ec5fc40f756e4b6e136b78cf7004265471d9bd1d",
+  "operation": "dependency metadata/hash inspection only; no native domain or analysis"
+}

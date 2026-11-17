@@ -1,0 +1,19 @@
+{
+  "reason": "Inherited H0 descriptive assumption still claimed retained orb webs in H3. Correct documentation without changing numerical inputs or overwriting the frozen model.",
+  "original_sha256": "903924e52f0615fa31b857b0c0d12656222228f20b2d778a6f0e413a6cbae335",
+  "corrected_sha256": "a1638c858c0c3bd9e54c6105d7af337729ff3b4d99f9cb6c5ecb649ef9b4afbf",
+  "analytical_fields_identical": [
+    "nodes",
+    "members",
+    "materials",
+    "supports",
+    "loads",
+    "settings",
+    "geometry",
+    "topology",
+    "units",
+    "axes"
+  ],
+  "numerical_rerun_required": false,
+  "results_reference": "model.v1.json; identical mechanics to model.v1.1.json"
+}

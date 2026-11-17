@@ -1,0 +1,48 @@
+{
+  "baseline": "0e1929f38084c7f62da99dbafb4f00c04d2f075b",
+  "public_scope": "Selected frozen evidence and viewer assets; not a complete historical execution environment",
+  "summary_sources": [
+    {
+      "historical_path": "evidence/R6_R7/R6_final_decision.md",
+      "sha256": "b4338f148d2a78e9789244701ff57b9e65f9df41b7f04d3529bba9546e259452",
+      "bytes": 3818,
+      "availability": "Source identity only; complete record not distributed in this dataset"
+    },
+    {
+      "historical_path": "evidence/R6_R7/R7_closure_status_addendum.md",
+      "sha256": "98e3ab7b27cdd3bab3d89c59e35d87543da7bbd235e457f2f3b1c70b62000ba4",
+      "bytes": 883,
+      "availability": "Source identity only; complete record not distributed in this dataset"
+    },
+    {
+      "historical_path": "evidence/decisions/B1plus_researcher_acceptance_addendum.md",
+      "sha256": "3a1aa16fb9eca8424c802b936a5c35d55bfe6f55a87a7c8fe81e3f98f2f22b45",
+      "bytes": 4390,
+      "availability": "Source identity only; complete record not distributed in this dataset"
+    },
+    {
+      "historical_path": "evidence/B1_final26/reports/B1plus_final26_findings.md",
+      "sha256": "58d185b229163e220092f849fe653968cefd5fc82d46a01d00e3a7b64bd93f5d",
+      "bytes": 9496,
+      "availability": "Source identity only; complete record not distributed in this dataset"
+    },
+    {
+      "historical_path": "evidence/PriorityA/reports/A1_A3_response_and_safeguard_results.md",
+      "sha256": "bb7293f9029a8929d54bb1b7964692a8fc8ef3ce22c9fa862519ad4321307e2d",
+      "bytes": 4615,
+      "availability": "Source identity only; complete record not distributed in this dataset"
+    },
+    {
+      "historical_path": "evidence/earlier_B1_history/092_B1plus_Gate2_complete_results.md",
+      "sha256": "4bce83eaec3d04d3d958f7ded44a3f45452361eca76378c170cba0cba936bb11",
+      "bytes": 23582,
+      "availability": "Source identity only; complete record not distributed in this dataset"
+    },
+    {
+      "historical_path": "evidence/earlier_B1_history/001_README.md",
+      "sha256": "df72bc717062ffdadae622855d4daf0650e89be21d39dbe61f648ed0c1327701",
+      "bytes": 1932,
+      "availability": "Source identity only; complete record not distributed in this dataset"
+    }
+  ]
+}

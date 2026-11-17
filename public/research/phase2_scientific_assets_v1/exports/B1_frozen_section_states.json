@@ -1,0 +1,220 @@
+{
+  "purpose": "Frozen section dimensions for visualization only; no recalculated properties or response",
+  "units": "m",
+  "evidence": "inputs/B1_frozen_summary.json",
+  "members": [
+    {
+      "member_id": 10,
+      "source_node_ids": [
+        10,
+        11
+      ],
+      "outer_diameter_m": 0.76,
+      "original_H3_wall_m": 0.03,
+      "qualified_uniform_wall_m": 0.02829,
+      "candidate_wall_m": 0.02829
+    },
+    {
+      "member_id": 11,
+      "source_node_ids": [
+        11,
+        12
+      ],
+      "outer_diameter_m": 0.76,
+      "original_H3_wall_m": 0.03,
+      "qualified_uniform_wall_m": 0.02829,
+      "candidate_wall_m": 0.02829
+    },
+    {
+      "member_id": 12,
+      "source_node_ids": [
+        12,
+        13
+      ],
+      "outer_diameter_m": 0.76,
+      "original_H3_wall_m": 0.03,
+      "qualified_uniform_wall_m": 0.02829,
+      "candidate_wall_m": 0.02829
+    },
+    {
+      "member_id": 13,
+      "source_node_ids": [
+        13,
+        14
+      ],
+      "outer_diameter_m": 0.76,
+      "original_H3_wall_m": 0.03,
+      "qualified_uniform_wall_m": 0.02829,
+      "candidate_wall_m": 0.02829
+    },
+    {
+      "member_id": 14,
+      "source_node_ids": [
+        14,
+        15
+      ],
+      "outer_diameter_m": 0.76,
+      "original_H3_wall_m": 0.03,
+      "qualified_uniform_wall_m": 0.02829,
+      "candidate_wall_m": 0.02829
+    },
+    {
+      "member_id": 15,
+      "source_node_ids": [
+        15,
+        16
+      ],
+      "outer_diameter_m": 0.76,
+      "original_H3_wall_m": 0.03,
+      "qualified_uniform_wall_m": 0.02829,
+      "candidate_wall_m": 0.02829
+    },
+    {
+      "member_id": 755,
+      "source_node_ids": [
+        192,
+        193
+      ],
+      "outer_diameter_m": 0.76,
+      "original_H3_wall_m": 0.03,
+      "qualified_uniform_wall_m": 0.02829,
+      "candidate_wall_m": 0.02829
+    },
+    {
+      "member_id": 756,
+      "source_node_ids": [
+        193,
+        194
+      ],
+      "outer_diameter_m": 0.76,
+      "original_H3_wall_m": 0.03,
+      "qualified_uniform_wall_m": 0.02829,
+      "candidate_wall_m": 0.02829
+    },
+    {
+      "member_id": 757,
+      "source_node_ids": [
+        194,
+        195
+      ],
+      "outer_diameter_m": 0.76,
+      "original_H3_wall_m": 0.03,
+      "qualified_uniform_wall_m": 0.02829,
+      "candidate_wall_m": 0.02829
+    },
+    {
+      "member_id": 758,
+      "source_node_ids": [
+        195,
+        196
+      ],
+      "outer_diameter_m": 0.76,
+      "original_H3_wall_m": 0.03,
+      "qualified_uniform_wall_m": 0.02829,
+      "candidate_wall_m": 0.02829
+    },
+    {
+      "member_id": 759,
+      "source_node_ids": [
+        196,
+        197
+      ],
+      "outer_diameter_m": 0.76,
+      "original_H3_wall_m": 0.03,
+      "qualified_uniform_wall_m": 0.02829,
+      "candidate_wall_m": 0.02829
+    },
+    {
+      "member_id": 760,
+      "source_node_ids": [
+        197,
+        198
+      ],
+      "outer_diameter_m": 0.76,
+      "original_H3_wall_m": 0.03,
+      "qualified_uniform_wall_m": 0.02829,
+      "candidate_wall_m": 0.02829
+    },
+    {
+      "member_id": 1520,
+      "source_node_ids": [
+        10,
+        192
+      ],
+      "outer_diameter_m": 0.64,
+      "original_H3_wall_m": 0.028,
+      "qualified_uniform_wall_m": 0.026404,
+      "candidate_wall_m": 0.021404
+    },
+    {
+      "member_id": 1523,
+      "source_node_ids": [
+        11,
+        193
+      ],
+      "outer_diameter_m": 0.64,
+      "original_H3_wall_m": 0.028,
+      "qualified_uniform_wall_m": 0.026404,
+      "candidate_wall_m": 0.026404
+    },
+    {
+      "member_id": 1526,
+      "source_node_ids": [
+        12,
+        194
+      ],
+      "outer_diameter_m": 0.64,
+      "original_H3_wall_m": 0.028,
+      "qualified_uniform_wall_m": 0.026404,
+      "candidate_wall_m": 0.026404
+    },
+    {
+      "member_id": 1529,
+      "source_node_ids": [
+        13,
+        195
+      ],
+      "outer_diameter_m": 0.64,
+      "original_H3_wall_m": 0.028,
+      "qualified_uniform_wall_m": 0.026404,
+      "candidate_wall_m": 0.026404
+    },
+    {
+      "member_id": 1532,
+      "source_node_ids": [
+        14,
+        196
+      ],
+      "outer_diameter_m": 0.64,
+      "original_H3_wall_m": 0.028,
+      "qualified_uniform_wall_m": 0.026404,
+      "candidate_wall_m": 0.026404
+    },
+    {
+      "member_id": 1535,
+      "source_node_ids": [
+        15,
+        197
+      ],
+      "outer_diameter_m": 0.64,
+      "original_H3_wall_m": 0.028,
+      "qualified_uniform_wall_m": 0.026404,
+      "candidate_wall_m": 0.026404
+    },
+    {
+      "member_id": 1538,
+      "source_node_ids": [
+        16,
+        198
+      ],
+      "outer_diameter_m": 0.64,
+      "original_H3_wall_m": 0.028,
+      "qualified_uniform_wall_m": 0.026404,
+      "candidate_wall_m": 0.021404
+    }
+  ],
+  "changed_member_ids": [
+    1520,
+    1538
+  ]
+}

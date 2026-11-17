@@ -1,0 +1,5 @@
+configuration,classification,joint_status,UNRESOLVED,FAIL,PASS,failed_but_resolution_unresolved,resolved_failed_rows,primary_failed_rows
+A0,Unchanged reference,REFERENCE,483,15,4,15,0,1
+A1,Response-infeasible,FAIL,61,167,274,21,146,4
+A2,Response-infeasible,FAIL,68,154,280,34,120,4
+A3,Response-infeasible,FAIL,46,138,318,18,120,2
