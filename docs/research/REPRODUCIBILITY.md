@@ -30,7 +30,7 @@ The 102 protected application files are checked against their recorded hashes. T
 
 ## Downloads
 
-The repository and data filenames retain their historical identifiers. The archive is named `cephalo-silk-research-data-minimal-v1.zip`. Its current size and SHA-256 are recorded in the release manifest. The viewer displays a download link only when a published location is configured; it currently reports the archive unavailable online.
+The repository and data filenames retain their historical identifiers. The archive is named `cephalo-silk-research-data-minimal-v1.zip`. Its current size and SHA-256 are recorded in the release manifest. Download [Research Data v1](https://github.com/wlululu/cephalo-silk-structural-lab/releases/download/research-viewer-minimal-v1/cephalo-silk-research-data-minimal-v1.zip). The Studio also provides a direct link to this archive.
 
 A complete repository checkout includes the files needed for packaging. The lightweight website source ZIP can be supplemented from the research-data ZIP: copy its archive-tier entries to the `source` locations declared in `distribution.json`, then verify them against the manifest.
 

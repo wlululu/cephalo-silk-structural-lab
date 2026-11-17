@@ -51,6 +51,8 @@ Each Blender package includes `scene.glb`, `structural_model.json`, `metadata.js
 
 The [GitHub repository](https://github.com/wlululu/cephalo-silk-structural-lab) contains the application source code. Structural models, mechanical responses, and engineering schematics are available through the corresponding Studio views.
 
+Download the versioned [Research Data v1](https://github.com/wlululu/cephalo-silk-structural-lab/releases/download/research-viewer-minimal-v1/cephalo-silk-research-data-minimal-v1.zip).
+
 For model assumptions, numerical verification, and data organization, see [Scientific Scope](public/research/SCIENTIFIC_SCOPE.md), [Data and Reproducibility](docs/research/REPRODUCIBILITY.md), and [Verification Coverage](docs/research/VERIFICATION.md). The studies use idealized structural models with explicitly documented loading, support, and analysis assumptions.
 
 ## Citation

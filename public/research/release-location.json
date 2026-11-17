@@ -1,6 +1,6 @@
 {
-  "status": "preparation_only",
-  "published_url": null,
+  "status": "published",
+  "published_url": "https://github.com/wlululu/cephalo-silk-structural-lab/releases/download/research-viewer-minimal-v1/cephalo-silk-research-data-minimal-v1.zip",
   "proposed_tag": "research-viewer-minimal-v1",
   "archive_name": "cephalo-silk-research-data-minimal-v1.zip"
 }

@@ -10,7 +10,7 @@
 - 34 archived response records, identified by model, load, engine, mesh and verification scope.
 - A concise Research Data & Source Code section, with provenance and checksums retained in downloadable manifests.
 
-The research-data release is not yet published. Contextual model, result and schematic downloads remain available. Repository addresses, existing routes and scientific identifiers are unchanged.
+The versioned [Research Data v1](https://github.com/wlululu/cephalo-silk-structural-lab/releases/download/research-viewer-minimal-v1/cephalo-silk-research-data-minimal-v1.zip) is available for download. Contextual model, result and schematic downloads remain available. Repository addresses, existing routes and scientific identifiers are unchanged.
 
 The R6 human–AI proposal and deterministic studies retain their distinct outcomes, including rejection, NO-GO, trade-offs, STOPPED and INCONCLUSIVE findings. See [Scientific Scope](../../public/research/SCIENTIFIC_SCOPE.md).
 

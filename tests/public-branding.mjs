@@ -44,8 +44,9 @@ for(const p of ['index.html','main.tsx','shared/Platform.tsx','README.md','docs/
 for(const p of ['README.md','shared/Platform.tsx'])assert.ok(read(p).includes('From Bioinspired Images to Executable Structural Models'));
 for(const c of ['loop-towers','pavilion']) assert.ok(read(`public/cases/${c}/entry.js`).includes('3D Structural Studio'));
 const release=JSON.parse(read('public/research/release-location.json'));
-assert.equal(release.published_url,null);
-assert.ok(!render(release).includes('Download research data'));
+assert.equal(release.status,'published');
+assert.equal(release.published_url,"https://github.com/wlululu/cephalo-silk-structural-lab/releases/download/research-viewer-minimal-v1/cephalo-silk-research-data-minimal-v1.zip");
+assert.ok(render(release).includes('Download research data'));
 assert.ok(!render(release).includes('not yet published'));
 assert.ok(viewer.includes('<h1>Structural Models &amp; Mechanics</h1>'));
 assert.ok(viewer.includes('Explore image-informed 3D structural interpretations, compare their mechanical responses, and examine mechanics-guided material efficiency.'));

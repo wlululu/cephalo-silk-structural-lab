@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "baseline": "0e1929f38084c7f62da99dbafb4f00c04d2f075b",
-  "publication_status": "not_published",
+  "publication_status": "published",
   "archive": {
     "name": "cephalo-silk-research-data-minimal-v1.zip",
     "bytes": 8078197,
