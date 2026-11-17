@@ -1,0 +1,9 @@
+source_node_id,ux,uy,uz,rx,ry,rz,interpretation
+10,1,1,1,1,0,0,vertical bearing plus torque fork; horizontal datum/guide only where specified
+12,0,1,0,1,0,0,vertical bearing plus torque fork; horizontal datum/guide only where specified
+14,0,1,0,1,0,0,vertical bearing plus torque fork; horizontal datum/guide only where specified
+16,0,1,1,1,0,0,vertical bearing plus torque fork; horizontal datum/guide only where specified
+192,0,1,0,1,0,0,vertical bearing plus torque fork; horizontal datum/guide only where specified
+194,0,1,0,1,0,0,vertical bearing plus torque fork; horizontal datum/guide only where specified
+196,0,1,0,1,0,0,vertical bearing plus torque fork; horizontal datum/guide only where specified
+198,0,1,0,1,0,0,vertical bearing plus torque fork; horizontal datum/guide only where specified

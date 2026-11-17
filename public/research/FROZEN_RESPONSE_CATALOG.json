@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "H0_loaded",
+    "path": "evidence/H0_H3/results/H0/js_loaded.json",
+    "sha256": "fb57f647b5c0874f911ebaba29ac69f781e4b936dcda8669abd1bd06adeab888",
+    "frozen_model_path": "evidence/H0_H3/models/H0/model.v1.json",
+    "frozen_model_sha256": "c78af1ec0f341c2ddb7b06fbfed8219272eaed7543ede6651c2bd36c363d91b2",
+    "units": "source coordinates and displacements m; rotations rad",
+    "loading_scope": "Full Bridge prescribed pressure/prestress; structural self-weight excluded",
+    "display_policy": "verified archived field",
+    "verification_path": "evidence/H0_H3/results/H0/verification.json",
+    "response_pointer": "result.nodes",
+    "model_version_note": null
+  },
+  {
+    "id": "H0_prestress",
+    "path": "evidence/H0_H3/results/H0/js_prestress.json",
+    "sha256": "44c4ee09bc5e5c83bb710cf9cd62c945d16df282ac268f773a043665e7ae801d",
+    "frozen_model_path": "evidence/H0_H3/models/H0/model.v1.json",
+    "frozen_model_sha256": "c78af1ec0f341c2ddb7b06fbfed8219272eaed7543ede6651c2bd36c363d91b2",
+    "units": "source coordinates and displacements m; rotations rad",
+    "loading_scope": "Full Bridge prescribed pressure/prestress; structural self-weight excluded",
+    "display_policy": "qualified summary only; full native prestress/web-coordinate verification unresolved",
+    "verification_path": "evidence/H0_H3/results/H0/verification.json",
+    "response_pointer": "result.nodes",
+    "model_version_note": null
+  },
+  {
+    "id": "H1_loaded",
+    "path": "evidence/H0_H3/results/H1/js_loaded.json",
+    "sha256": "94aea324cfc396d4ebe0a3adeeffceac84a4e637faa786de55d75a2bb0e86b12",
+    "frozen_model_path": "evidence/H0_H3/models/H1/model.v1.json",
+    "frozen_model_sha256": "23617d2d6f19e8532846a01827be414d0a95195542242904111937bb13f7b182",
+    "units": "source coordinates and displacements m; rotations rad",
+    "loading_scope": "Full Bridge prescribed pressure/prestress; structural self-weight excluded",
+    "display_policy": "verified archived field",
+    "verification_path": "evidence/H0_H3/results/H1/verification.json",
+    "response_pointer": "result.nodes",
+    "model_version_note": null
+  },
+  {
+    "id": "H1_prestress",
+    "path": "evidence/H0_H3/results/H1/js_prestress.json",
+    "sha256": "6dadda4e21da1063d547c1d6cab07f56ad8b4336e20794719a37812fe12d6ae6",
+    "frozen_model_path": "evidence/H0_H3/models/H1/model.v1.json",
+    "frozen_model_sha256": "23617d2d6f19e8532846a01827be414d0a95195542242904111937bb13f7b182",
+    "units": "source coordinates and displacements m; rotations rad",
+    "loading_scope": "Full Bridge prescribed pressure/prestress; structural self-weight excluded",
+    "display_policy": "qualified summary only; full native prestress/web-coordinate verification unresolved",
+    "verification_path": "evidence/H0_H3/results/H1/verification.json",
+    "response_pointer": "result.nodes",
+    "model_version_note": null
+  },
+  {
+    "id": "H2_loaded",
+    "path": "evidence/H0_H3/results/H2/js_loaded.json",
+    "sha256": "c4d05b1e560bb01f295868f41cf631a172bbf82c16e765249394530e527732f1",
+    "frozen_model_path": "evidence/H0_H3/models/H2/model.v1.json",
+    "frozen_model_sha256": "f5bcdfce400d92e293f0d649b2518de44bba5fc48f10e9e5c4e15baae083f29e",
+    "units": "source coordinates and displacements m; rotations rad",
+    "loading_scope": "Full Bridge prescribed pressure/prestress; structural self-weight excluded",
+    "display_policy": "verified archived field",
+    "verification_path": "evidence/H0_H3/results/H2/verification.json",
+    "response_pointer": "result.nodes",
+    "model_version_note": null
+  },
+  {
+    "id": "H2_prestress",
+    "path": "evidence/H0_H3/results/H2/js_prestress.json",
+    "sha256": "10d451b7c96250fd50d743d4b49bb768e9032ae048c9fd93a34d1f2800a027d2",
+    "frozen_model_path": "evidence/H0_H3/models/H2/model.v1.json",
+    "frozen_model_sha256": "f5bcdfce400d92e293f0d649b2518de44bba5fc48f10e9e5c4e15baae083f29e",
+    "units": "source coordinates and displacements m; rotations rad",
+    "loading_scope": "Full Bridge prescribed pressure/prestress; structural self-weight excluded",
+    "display_policy": "qualified summary only; full native prestress/web-coordinate verification unresolved",
+    "verification_path": "evidence/H0_H3/results/H2/verification.json",
+    "response_pointer": "result.nodes",
+    "model_version_note": null
+  },
+  {
+    "id": "H3_loaded",
+    "path": "evidence/H0_H3/results/H3/js_loaded.json",
+    "sha256": "a12fddadade35cbf38068a6415603b4e3b58a4d2d5c1f19e79973807faf43061",
+    "frozen_model_path": "evidence/H0_H3/models/H3/model.v1.json",
+    "frozen_model_sha256": "903924e52f0615fa31b857b0c0d12656222228f20b2d778a6f0e413a6cbae335",
+    "units": "source coordinates and displacements m; rotations rad",
+    "loading_scope": "Full Bridge prescribed pressure/prestress; structural self-weight excluded",
+    "display_policy": "verified archived field",
+    "verification_path": "evidence/H0_H3/results/H3/verification.json",
+    "response_pointer": "result.nodes",
+    "model_version_note": "H3 model.v1.1.json changes descriptive metadata only; see metadata_erratum.json"
+  },
+  {
+    "id": "H3_prestress",
+    "path": "evidence/H0_H3/results/H3/js_prestress.json",
+    "sha256": "530ad10926791319cd7c35a87a19e3ad3355f929ba8a71d699903317da3ec9d7",
+    "frozen_model_path": "evidence/H0_H3/models/H3/model.v1.json",
+    "frozen_model_sha256": "903924e52f0615fa31b857b0c0d12656222228f20b2d778a6f0e413a6cbae335",
+    "units": "source coordinates and displacements m; rotations rad",
+    "loading_scope": "Full Bridge prescribed pressure/prestress; structural self-weight excluded",
+    "display_policy": "verified archived field",
+    "verification_path": "evidence/H0_H3/results/H3/verification.json",
+    "response_pointer": "result.nodes",
+    "model_version_note": "H3 model.v1.1.json changes descriptive metadata only; see metadata_erratum.json"
+  },
+  {
+    "id": "B1_final26_slot_01",
+    "path": "evidence/B1_final26/execution/slot_01/raw.json",
+    "sha256": "71d35f8acb67224a763be69ffb4001b0a388671e8843b5e7cc2df2bda4e6dffc",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 47,
+        "d": 50
+      },
+      "mesh": "refined",
+      "case": "LC-U",
+      "slot": 1,
+      "engine": "OpenSees_Timoshenko"
+    },
+    "archived_call_row": {
+      "slot": "1",
+      "configuration": "F-L",
+      "engine": "OpenSees_Timoshenko",
+      "mesh": "refined",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "77910.61538521228",
+      "self_weight_N": "764303.1369289325",
+      "D_mm": "31.967750486976705",
+      "reserved_D_mm": "32.0316893847257",
+      "reserved_margin_mm": "1.301643948607628",
+      "elapsed_seconds": "0.5227858279999964",
+      "raw_sha256": "71d35f8acb67224a763be69ffb4001b0a388671e8843b5e7cc2df2bda4e6dffc"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_02",
+    "path": "evidence/B1_final26/execution/slot_02/raw.json",
+    "sha256": "76b31540253bb2daca3356ea1c1f5dab6d778be9ad3ed458eb0ff76ad5cf0d53",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 47,
+        "d": 50
+      },
+      "mesh": "refined",
+      "case": "LC-E",
+      "slot": 2,
+      "engine": "OpenSees_Timoshenko"
+    },
+    "archived_call_row": {
+      "slot": "2",
+      "configuration": "F-L",
+      "engine": "OpenSees_Timoshenko",
+      "mesh": "refined",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "FAIL",
+      "mass_kg": "77910.61538521228",
+      "self_weight_N": "764303.1369289325",
+      "D_mm": "33.28712021267477",
+      "reserved_D_mm": "33.35369798181214",
+      "reserved_margin_mm": "-0.020364648478807257",
+      "elapsed_seconds": "0.42223443500006397",
+      "raw_sha256": "76b31540253bb2daca3356ea1c1f5dab6d778be9ad3ed458eb0ff76ad5cf0d53"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_03",
+    "path": "evidence/B1_final26/execution/slot_03/raw.json",
+    "sha256": "ffea613041d9382133fbbd2690cebe24147f85f91e6377a6de2461202c976197",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "refined",
+      "case": "LC-U",
+      "slot": 3,
+      "engine": "OpenSees_Timoshenko"
+    },
+    "archived_call_row": {
+      "slot": "3",
+      "configuration": "F-U",
+      "engine": "OpenSees_Timoshenko",
+      "mesh": "refined",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "78149.07868363468",
+      "self_weight_N": "766642.4618864562",
+      "D_mm": "31.88858284850111",
+      "reserved_D_mm": "31.952363403056392",
+      "reserved_margin_mm": "1.3809699302769416",
+      "elapsed_seconds": "0.3708146480000778",
+      "raw_sha256": "ffea613041d9382133fbbd2690cebe24147f85f91e6377a6de2461202c976197"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_04",
+    "path": "evidence/B1_final26/execution/slot_04/raw.json",
+    "sha256": "e471519d19afc924a5960aa94174ec7678fab03a1d02b58fa2580c66fd21124f",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "refined",
+      "case": "LC-E",
+      "slot": 4,
+      "engine": "OpenSees_Timoshenko"
+    },
+    "archived_call_row": {
+      "slot": "4",
+      "configuration": "F-U",
+      "engine": "OpenSees_Timoshenko",
+      "mesh": "refined",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "78149.07868363468",
+      "self_weight_N": "766642.4618864562",
+      "D_mm": "33.20422419528364",
+      "reserved_D_mm": "33.27063616409662",
+      "reserved_margin_mm": "0.06269716923670843",
+      "elapsed_seconds": "0.47008916300001147",
+      "raw_sha256": "e471519d19afc924a5960aa94174ec7678fab03a1d02b58fa2580c66fd21124f"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_05",
+    "path": "evidence/B1_final26/execution/slot_05/raw.json",
+    "sha256": "85ef907bc8f63a747468e6114459e3896e1999aa17ae9ede03ed24c9e9a4c729",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "base",
+      "case": "LC-U",
+      "slot": 5,
+      "engine": "JS_EB"
+    },
+    "archived_call_row": {
+      "slot": "5",
+      "configuration": "U",
+      "engine": "JS_EB",
+      "mesh": "base",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "78149.07868363457",
+      "self_weight_N": "766642.4618864551",
+      "D_mm": "30.805051827680398",
+      "reserved_D_mm": "30.86666521184094",
+      "reserved_margin_mm": "2.4666681214923942",
+      "elapsed_seconds": "0.4160231419998581",
+      "raw_sha256": "85ef907bc8f63a747468e6114459e3896e1999aa17ae9ede03ed24c9e9a4c729"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_06",
+    "path": "evidence/B1_final26/execution/slot_06/raw.json",
+    "sha256": "d70cfc8deb87a5c77361090a10e9daa2bb8d12739005ebfcef6ded9f1b5c3c90",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "base",
+      "case": "LC-U",
+      "slot": 6,
+      "engine": "OpenSees_EB"
+    },
+    "archived_call_row": {
+      "slot": "6",
+      "configuration": "U",
+      "engine": "OpenSees_EB",
+      "mesh": "base",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "78149.07868363467",
+      "self_weight_N": "766642.4618864561",
+      "D_mm": "30.80505182767183",
+      "reserved_D_mm": "30.866665211832352",
+      "reserved_margin_mm": "2.466668121500981",
+      "elapsed_seconds": "0.36907774299993434",
+      "raw_sha256": "d70cfc8deb87a5c77361090a10e9daa2bb8d12739005ebfcef6ded9f1b5c3c90"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_07",
+    "path": "evidence/B1_final26/execution/slot_07/raw.json",
+    "sha256": "a8e65cc0cc2f56226f813a2d1d129ca37380d684114ec2962486641aeb99a7ba",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "base",
+      "case": "LC-E",
+      "slot": 7,
+      "engine": "JS_EB"
+    },
+    "archived_call_row": {
+      "slot": "7",
+      "configuration": "U",
+      "engine": "JS_EB",
+      "mesh": "base",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "78149.07868363457",
+      "self_weight_N": "766642.4618864551",
+      "D_mm": "32.10589382223159",
+      "reserved_D_mm": "32.17010902046544",
+      "reserved_margin_mm": "1.1632243128678956",
+      "elapsed_seconds": "0.3701930629999879",
+      "raw_sha256": "a8e65cc0cc2f56226f813a2d1d129ca37380d684114ec2962486641aeb99a7ba"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_08",
+    "path": "evidence/B1_final26/execution/slot_08/raw.json",
+    "sha256": "27716839f815357c4a597583c04f7839dbbb33c913d0a6b3cd280064b56988c5",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "base",
+      "case": "LC-E",
+      "slot": 8,
+      "engine": "OpenSees_EB"
+    },
+    "archived_call_row": {
+      "slot": "8",
+      "configuration": "U",
+      "engine": "OpenSees_EB",
+      "mesh": "base",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "78149.07868363467",
+      "self_weight_N": "766642.4618864561",
+      "D_mm": "32.10589382222122",
+      "reserved_D_mm": "32.170109020455044",
+      "reserved_margin_mm": "1.1632243128782902",
+      "elapsed_seconds": "0.6154826320000666",
+      "raw_sha256": "27716839f815357c4a597583c04f7839dbbb33c913d0a6b3cd280064b56988c5"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_09",
+    "path": "evidence/B1_final26/execution/slot_09/raw.json",
+    "sha256": "91423df4a7c8be5fc397658db19ea697596f43d3462452f03d2da82413f7fe1a",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "refined",
+      "case": "LC-U",
+      "slot": 9,
+      "engine": "JS_EB"
+    },
+    "archived_call_row": {
+      "slot": "9",
+      "configuration": "U",
+      "engine": "JS_EB",
+      "mesh": "refined",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "78149.07868363462",
+      "self_weight_N": "766642.4618864557",
+      "D_mm": "30.805051827624734",
+      "reserved_D_mm": "30.866665211785165",
+      "reserved_margin_mm": "2.466668121548169",
+      "elapsed_seconds": "0.47855909700001575",
+      "raw_sha256": "91423df4a7c8be5fc397658db19ea697596f43d3462452f03d2da82413f7fe1a"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_10",
+    "path": "evidence/B1_final26/execution/slot_10/raw.json",
+    "sha256": "044289d26556411cbce79dbd4d3b398607d6775e9a5d9184ac33849ac8c9f9bd",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "refined",
+      "case": "LC-U",
+      "slot": 10,
+      "engine": "OpenSees_EB"
+    },
+    "archived_call_row": {
+      "slot": "10",
+      "configuration": "U",
+      "engine": "OpenSees_EB",
+      "mesh": "refined",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "78149.07868363468",
+      "self_weight_N": "766642.4618864562",
+      "D_mm": "30.80505182768382",
+      "reserved_D_mm": "30.86666521184437",
+      "reserved_margin_mm": "2.466668121488963",
+      "elapsed_seconds": "0.47617495899999085",
+      "raw_sha256": "044289d26556411cbce79dbd4d3b398607d6775e9a5d9184ac33849ac8c9f9bd"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_11",
+    "path": "evidence/B1_final26/execution/slot_11/raw.json",
+    "sha256": "f9e07870f1962c7ba2dcb269f5ca6b1ae1d19ad0dcb1abff5a8830afe1b09906",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "refined",
+      "case": "LC-E",
+      "slot": 11,
+      "engine": "JS_EB"
+    },
+    "archived_call_row": {
+      "slot": "11",
+      "configuration": "U",
+      "engine": "JS_EB",
+      "mesh": "refined",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "78149.07868363462",
+      "self_weight_N": "766642.4618864557",
+      "D_mm": "32.10589382217793",
+      "reserved_D_mm": "32.170109020411665",
+      "reserved_margin_mm": "1.163224312921665",
+      "elapsed_seconds": "0.41616476900003363",
+      "raw_sha256": "f9e07870f1962c7ba2dcb269f5ca6b1ae1d19ad0dcb1abff5a8830afe1b09906"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_12",
+    "path": "evidence/B1_final26/execution/slot_12/raw.json",
+    "sha256": "8a05b72417f989ce81499c8469def45bbc65e8933cd84d0498c8f2f5a2776a29",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "refined",
+      "case": "LC-E",
+      "slot": 12,
+      "engine": "OpenSees_EB"
+    },
+    "archived_call_row": {
+      "slot": "12",
+      "configuration": "U",
+      "engine": "OpenSees_EB",
+      "mesh": "refined",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "78149.07868363468",
+      "self_weight_N": "766642.4618864562",
+      "D_mm": "32.10589382222669",
+      "reserved_D_mm": "32.17010902046052",
+      "reserved_margin_mm": "1.1632243128728084",
+      "elapsed_seconds": "0.4194537200000923",
+      "raw_sha256": "8a05b72417f989ce81499c8469def45bbc65e8933cd84d0498c8f2f5a2776a29"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_13",
+    "path": "evidence/B1_final26/execution/slot_13/raw.json",
+    "sha256": "a5aa91a6a2a7814660918f768549d7838aa32b31db9917cb7c807b382d5161f6",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "base",
+      "case": "LC-U",
+      "slot": 13,
+      "engine": "OpenSees_Timoshenko"
+    },
+    "archived_call_row": {
+      "slot": "13",
+      "configuration": "U",
+      "engine": "OpenSees_Timoshenko",
+      "mesh": "base",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "78149.07868363467",
+      "self_weight_N": "766642.4618864561",
+      "D_mm": "31.888582848500803",
+      "reserved_D_mm": "31.952363403056086",
+      "reserved_margin_mm": "1.380969930277247",
+      "elapsed_seconds": "0.47048265200010064",
+      "raw_sha256": "a5aa91a6a2a7814660918f768549d7838aa32b31db9917cb7c807b382d5161f6"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_14",
+    "path": "evidence/B1_final26/execution/slot_14/raw.json",
+    "sha256": "ff3aa6fcaffee00166a87cbb58b2fba96a714fdbe6bacc12488e8ff3c8011368",
+    "request": {
+      "kind": "B1",
+      "role": "U",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "base",
+      "case": "LC-E",
+      "slot": 14,
+      "engine": "OpenSees_Timoshenko"
+    },
+    "archived_call_row": {
+      "slot": "14",
+      "configuration": "U",
+      "engine": "OpenSees_Timoshenko",
+      "mesh": "base",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "78149.07868363467",
+      "self_weight_N": "766642.4618864561",
+      "D_mm": "33.20422419528355",
+      "reserved_D_mm": "33.27063616409654",
+      "reserved_margin_mm": "0.06269716923679863",
+      "elapsed_seconds": "0.3685954530001254",
+      "raw_sha256": "ff3aa6fcaffee00166a87cbb58b2fba96a714fdbe6bacc12488e8ff3c8011368"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_15",
+    "path": "evidence/B1_final26/execution/slot_15/raw.json",
+    "sha256": "2cf679556856a030f36b65c022cd25de65be08e39edb9d3f98d56a5b27cdbcc8",
+    "request": {
+      "kind": "B1",
+      "role": "V2",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "base",
+      "case": "LC-U",
+      "slot": 15,
+      "engine": "JS_EB"
+    },
+    "archived_call_row": {
+      "slot": "15",
+      "configuration": "V",
+      "engine": "JS_EB",
+      "mesh": "base",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "75987.63571417947",
+      "self_weight_N": "745438.7063561006",
+      "D_mm": "30.805051827680114",
+      "reserved_D_mm": "30.866665211840655",
+      "reserved_margin_mm": "2.466668121492679",
+      "elapsed_seconds": "0.31569523500002106",
+      "raw_sha256": "2cf679556856a030f36b65c022cd25de65be08e39edb9d3f98d56a5b27cdbcc8"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_16",
+    "path": "evidence/B1_final26/execution/slot_16/raw.json",
+    "sha256": "ba8dc38e3cc4df41c01db5e5f42768ea79a11397aa16895d57c63d7eb4adaab0",
+    "request": {
+      "kind": "B1",
+      "role": "V2",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "base",
+      "case": "LC-U",
+      "slot": 16,
+      "engine": "OpenSees_EB"
+    },
+    "archived_call_row": {
+      "slot": "16",
+      "configuration": "V",
+      "engine": "OpenSees_EB",
+      "mesh": "base",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "75987.63571417959",
+      "self_weight_N": "745438.7063561018",
+      "D_mm": "30.805051827670805",
+      "reserved_D_mm": "30.866665211831332",
+      "reserved_margin_mm": "2.466668121502001",
+      "elapsed_seconds": "0.42132263199982845",
+      "raw_sha256": "ba8dc38e3cc4df41c01db5e5f42768ea79a11397aa16895d57c63d7eb4adaab0"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_17",
+    "path": "evidence/B1_final26/execution/slot_17/raw.json",
+    "sha256": "400915db108f51769c4e1cdd979c08e8962b63c2eefaff900d69ccc9ef9563b4",
+    "request": {
+      "kind": "B1",
+      "role": "V2",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "base",
+      "case": "LC-E",
+      "slot": 17,
+      "engine": "JS_EB"
+    },
+    "archived_call_row": {
+      "slot": "17",
+      "configuration": "V",
+      "engine": "JS_EB",
+      "mesh": "base",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "75987.63571417947",
+      "self_weight_N": "745438.7063561006",
+      "D_mm": "32.10589382222831",
+      "reserved_D_mm": "32.17010902046215",
+      "reserved_margin_mm": "1.1632243128711848",
+      "elapsed_seconds": "0.3659864909998305",
+      "raw_sha256": "400915db108f51769c4e1cdd979c08e8962b63c2eefaff900d69ccc9ef9563b4"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_18",
+    "path": "evidence/B1_final26/execution/slot_18/raw.json",
+    "sha256": "20594ccfcc943afaf9db84f13ad609db146628e6f4bd7cdcbf406d3beffe8ddc",
+    "request": {
+      "kind": "B1",
+      "role": "V2",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "base",
+      "case": "LC-E",
+      "slot": 18,
+      "engine": "OpenSees_EB"
+    },
+    "archived_call_row": {
+      "slot": "18",
+      "configuration": "V",
+      "engine": "OpenSees_EB",
+      "mesh": "base",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "75987.63571417959",
+      "self_weight_N": "745438.7063561018",
+      "D_mm": "32.10589382222008",
+      "reserved_D_mm": "32.1701090204539",
+      "reserved_margin_mm": "1.163224312879435",
+      "elapsed_seconds": "0.4201131899999382",
+      "raw_sha256": "20594ccfcc943afaf9db84f13ad609db146628e6f4bd7cdcbf406d3beffe8ddc"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_19",
+    "path": "evidence/B1_final26/execution/slot_19/raw.json",
+    "sha256": "69929a2d2cf3f60c286c948a8705e63a77c0408c538fb69c84f5d116602b9e39",
+    "request": {
+      "kind": "B1",
+      "role": "V2",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "refined",
+      "case": "LC-U",
+      "slot": 19,
+      "engine": "OpenSees_Timoshenko"
+    },
+    "archived_call_row": {
+      "slot": "19",
+      "configuration": "V",
+      "engine": "OpenSees_Timoshenko",
+      "mesh": "refined",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "75987.63571417959",
+      "self_weight_N": "745438.7063561018",
+      "D_mm": "31.888582848500484",
+      "reserved_D_mm": "31.952363403055767",
+      "reserved_margin_mm": "1.380969930277566",
+      "elapsed_seconds": "0.4182505520000177",
+      "raw_sha256": "69929a2d2cf3f60c286c948a8705e63a77c0408c538fb69c84f5d116602b9e39"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_20",
+    "path": "evidence/B1_final26/execution/slot_20/raw.json",
+    "sha256": "f96ced87fb39fe57e1ff3c6e532d95826d8320f52e209b529fbbacabc66afa78",
+    "request": {
+      "kind": "B1",
+      "role": "V2",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "refined",
+      "case": "LC-E",
+      "slot": 20,
+      "engine": "OpenSees_Timoshenko"
+    },
+    "archived_call_row": {
+      "slot": "20",
+      "configuration": "V",
+      "engine": "OpenSees_Timoshenko",
+      "mesh": "refined",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "75987.63571417959",
+      "self_weight_N": "745438.7063561018",
+      "D_mm": "33.20422419528349",
+      "reserved_D_mm": "33.27063616409647",
+      "reserved_margin_mm": "0.06269716923686108",
+      "elapsed_seconds": "0.5224006610001197",
+      "raw_sha256": "f96ced87fb39fe57e1ff3c6e532d95826d8320f52e209b529fbbacabc66afa78"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_21",
+    "path": "evidence/B1_final26/execution/slot_21/raw.json",
+    "sha256": "1bf7c456dd5761c3cb4304e5f56dbbe74027220331eee186ec14102796187a30",
+    "request": {
+      "kind": "B1",
+      "role": "V2",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "refined",
+      "case": "LC-U",
+      "slot": 21,
+      "engine": "JS_EB"
+    },
+    "archived_call_row": {
+      "slot": "21",
+      "configuration": "V",
+      "engine": "JS_EB",
+      "mesh": "refined",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "75987.63571417953",
+      "self_weight_N": "745438.7063561012",
+      "D_mm": "30.805051827696875",
+      "reserved_D_mm": "30.866665211857452",
+      "reserved_margin_mm": "2.46666812147588",
+      "elapsed_seconds": "0.4668345430000045",
+      "raw_sha256": "1bf7c456dd5761c3cb4304e5f56dbbe74027220331eee186ec14102796187a30"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_22",
+    "path": "evidence/B1_final26/execution/slot_22/raw.json",
+    "sha256": "1ff3821e0937795f34d1044e8d8ec401bb97990981b7e8295daf0060da28edd0",
+    "request": {
+      "kind": "B1",
+      "role": "V2",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "refined",
+      "case": "LC-U",
+      "slot": 22,
+      "engine": "OpenSees_EB"
+    },
+    "archived_call_row": {
+      "slot": "22",
+      "configuration": "V",
+      "engine": "OpenSees_EB",
+      "mesh": "refined",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "75987.63571417959",
+      "self_weight_N": "745438.7063561018",
+      "D_mm": "30.805051827690757",
+      "reserved_D_mm": "30.86666521185132",
+      "reserved_margin_mm": "2.4666681214820136",
+      "elapsed_seconds": "0.41970487200001116",
+      "raw_sha256": "1ff3821e0937795f34d1044e8d8ec401bb97990981b7e8295daf0060da28edd0"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_23",
+    "path": "evidence/B1_final26/execution/slot_23/raw.json",
+    "sha256": "b14651b4879c0e1c607a8ecc52bdd0704782132f21acd3bad3bf2b82c0d5ce63",
+    "request": {
+      "kind": "B1",
+      "role": "V2",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "refined",
+      "case": "LC-E",
+      "slot": 23,
+      "engine": "JS_EB"
+    },
+    "archived_call_row": {
+      "slot": "23",
+      "configuration": "V",
+      "engine": "JS_EB",
+      "mesh": "refined",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "75987.63571417953",
+      "self_weight_N": "745438.7063561012",
+      "D_mm": "32.10589382224404",
+      "reserved_D_mm": "32.17010902047791",
+      "reserved_margin_mm": "1.1632243128554265",
+      "elapsed_seconds": "0.4724311200000102",
+      "raw_sha256": "b14651b4879c0e1c607a8ecc52bdd0704782132f21acd3bad3bf2b82c0d5ce63"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_24",
+    "path": "evidence/B1_final26/execution/slot_24/raw.json",
+    "sha256": "fb33671507d5742095193b9825a3e026fc2914d6a8d9c3e91a3c26f4fac36a0c",
+    "request": {
+      "kind": "B1",
+      "role": "V2",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "refined",
+      "case": "LC-E",
+      "slot": 24,
+      "engine": "OpenSees_EB"
+    },
+    "archived_call_row": {
+      "slot": "24",
+      "configuration": "V",
+      "engine": "OpenSees_EB",
+      "mesh": "refined",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "75987.63571417959",
+      "self_weight_N": "745438.7063561018",
+      "D_mm": "32.10589382226923",
+      "reserved_D_mm": "32.17010902050314",
+      "reserved_margin_mm": "1.1632243128301898",
+      "elapsed_seconds": "0.36826864999989084",
+      "raw_sha256": "fb33671507d5742095193b9825a3e026fc2914d6a8d9c3e91a3c26f4fac36a0c"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_25",
+    "path": "evidence/B1_final26/execution/slot_25/raw.json",
+    "sha256": "28149ead9add2b780900dce3e56b8625549c8b1d211d0befa2b796eac54144de",
+    "request": {
+      "kind": "B1",
+      "role": "V2",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "base",
+      "case": "LC-U",
+      "slot": 25,
+      "engine": "OpenSees_Timoshenko"
+    },
+    "archived_call_row": {
+      "slot": "25",
+      "configuration": "V",
+      "engine": "OpenSees_Timoshenko",
+      "mesh": "base",
+      "load_case": "LC-U",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "75987.63571417959",
+      "self_weight_N": "745438.7063561018",
+      "D_mm": "31.888582848500686",
+      "reserved_D_mm": "31.95236340305597",
+      "reserved_margin_mm": "1.3809699302773648",
+      "elapsed_seconds": "0.43622038400008023",
+      "raw_sha256": "28149ead9add2b780900dce3e56b8625549c8b1d211d0befa2b796eac54144de"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  },
+  {
+    "id": "B1_final26_slot_26",
+    "path": "evidence/B1_final26/execution/slot_26/raw.json",
+    "sha256": "222b0a6637ba41e75278d0e525138990dc01115eba3700a880e58691eed5f644",
+    "request": {
+      "kind": "B1",
+      "role": "V2",
+      "alpha": {
+        "n": 943,
+        "d": 1000
+      },
+      "mesh": "base",
+      "case": "LC-E",
+      "slot": 26,
+      "engine": "OpenSees_Timoshenko"
+    },
+    "archived_call_row": {
+      "slot": "26",
+      "configuration": "V",
+      "engine": "OpenSees_Timoshenko",
+      "mesh": "base",
+      "load_case": "LC-E",
+      "status": "COMPLETED_NUMERICALLY_VALID",
+      "response_status": "PASS",
+      "mass_kg": "75987.63571417959",
+      "self_weight_N": "745438.7063561018",
+      "D_mm": "33.204224195283594",
+      "reserved_D_mm": "33.27063616409657",
+      "reserved_margin_mm": "0.062697169236757",
+      "elapsed_seconds": "0.42073053700005403",
+      "raw_sha256": "222b0a6637ba41e75278d0e525138990dc01115eba3700a880e58691eed5f644"
+    },
+    "loading_scope": "Idealized H3-derived B1+ with current-section self-weight; not full Bridge",
+    "display_policy": "archived numerical result; retain response_status including intentional lower-comparator FAIL",
+    "mapping_requirement": "Use raw.model subdivision/parent maps; do not index mesh nodes as 14 source nodes. Never interpolate a new mechanical state."
+  }
+]

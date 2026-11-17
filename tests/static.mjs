@@ -13,7 +13,7 @@ for(const prefix of ['/','/cephalo-structural-lab/','/cephalo-silk-structural-la
   const base=`http://127.0.0.1:${server.address().port}${prefix}`;
   const get=async (relative,mime)=>{const response=await fetch(new URL(relative,base));assert.equal(response.status,200,relative);if(mime)assert.ok(response.headers.get('content-type').includes(mime),relative+' MIME');return Buffer.from(await response.arrayBuffer());};
   const html=(await get('','text/html')).toString();
-  assert.ok(html.includes('CEPHALO-SILK / STRUCTURAL LAB'));
+  assert.ok(html.includes('3D Structural Studio'));
   for(const [,url] of html.matchAll(/(?:src|href)="([^"#]+)"/g)){assert.ok(!url.startsWith('/'),'Root-relative app asset: '+url);await get(url);}
   const publicFiles=[];
   const walk=dir=>{for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const f=path.join(dir,entry.name);if(entry.isDirectory())walk(f);else publicFiles.push(f);}};

@@ -1,0 +1,134 @@
+[
+  {
+    "record": "shear_U_EB_refined_LC-E.json",
+    "pass": true,
+    "relative_difference": 0.03307803147567459,
+    "limit": 0.05,
+    "EB_metrics": {
+      "D_m": 0.03210589382222669,
+      "rotation_norm_rad": 0.0043435529762131915,
+      "stress_envelope_Pa": 89044096.81842938,
+      "N_N": 0.0,
+      "V_N": 323004.9753304915,
+      "T_Nm": 323556.22624127794,
+      "B_Nm": 795396.3692843682,
+      "relative_translation": 0.0015739758890042485,
+      "compression_euler_ratio": 0.0,
+      "bearing_force_N": 566315.7116245396,
+      "bearing_torque_Nm": 998070.505148306
+    },
+    "Timoshenko_metrics": {
+      "D_m": 0.03320422419528364,
+      "rotation_norm_rad": 0.004342246503795258,
+      "stress_envelope_Pa": 89044096.81845225,
+      "N_N": 0.0,
+      "V_N": 323004.97533133486,
+      "T_Nm": 323556.22624131694,
+      "B_Nm": 797059.408009405,
+      "relative_translation": 0.0016502756969077068,
+      "compression_euler_ratio": 0.0,
+      "bearing_force_N": 565662.79056516,
+      "bearing_torque_Nm": 998070.505148371
+    },
+    "scope": "same native engine, different beam formulation; not independent full-system shear verification"
+  },
+  {
+    "record": "shear_U_EB_refined_LC-U.json",
+    "pass": true,
+    "relative_difference": 0.033978650790629845,
+    "limit": 0.05,
+    "EB_metrics": {
+      "D_m": 0.03080505182768382,
+      "rotation_norm_rad": 0.004349184736481818,
+      "stress_envelope_Pa": 113475791.32370424,
+      "N_N": 0.0,
+      "V_N": 323004.9753329306,
+      "T_Nm": 323556.2262414094,
+      "B_Nm": 834886.1463578136,
+      "relative_translation": 0.0013571688899142625,
+      "compression_euler_ratio": 0.0,
+      "bearing_force_N": 760565.7116257356,
+      "bearing_torque_Nm": 1481998.5988405666
+    },
+    "Timoshenko_metrics": {
+      "D_m": 0.03188858284850111,
+      "rotation_norm_rad": 0.00434727936230419,
+      "stress_envelope_Pa": 113475791.32370156,
+      "N_N": 0.0,
+      "V_N": 323004.97533135995,
+      "T_Nm": 323556.2262413183,
+      "B_Nm": 834886.1463578092,
+      "relative_translation": 0.001431002139110558,
+      "compression_euler_ratio": 0.0,
+      "bearing_force_N": 760407.9943628646,
+      "bearing_torque_Nm": 1481998.598840441
+    },
+    "scope": "same native engine, different beam formulation; not independent full-system shear verification"
+  },
+  {
+    "record": "shear_V_EB_refined_LC-E.json",
+    "pass": true,
+    "relative_difference": 0.03307803147438912,
+    "limit": 0.05,
+    "EB_metrics": {
+      "D_m": 0.03210589382226923,
+      "rotation_norm_rad": 0.0043435529762188676,
+      "stress_envelope_Pa": 89044096.81853472,
+      "N_N": 0.0,
+      "V_N": 323004.97533414775,
+      "T_Nm": 323556.2262416513,
+      "B_Nm": 795396.3692906931,
+      "relative_translation": 0.0015739758890163994,
+      "compression_euler_ratio": 0.0,
+      "bearing_force_N": 566315.7116264577,
+      "bearing_torque_Nm": 998070.5051485407
+    },
+    "Timoshenko_metrics": {
+      "D_m": 0.03320422419528349,
+      "rotation_norm_rad": 0.004342246503795217,
+      "stress_envelope_Pa": 89044096.8184524,
+      "N_N": 0.0,
+      "V_N": 323004.9753313413,
+      "T_Nm": 323556.22624131467,
+      "B_Nm": 797059.408009367,
+      "relative_translation": 0.0016502756969076294,
+      "compression_euler_ratio": 0.0,
+      "bearing_force_N": 565662.7905651494,
+      "bearing_torque_Nm": 998070.5051483691
+    },
+    "scope": "same native engine, different beam formulation; not independent full-system shear verification"
+  },
+  {
+    "record": "shear_V_EB_refined_LC-U.json",
+    "pass": true,
+    "relative_difference": 0.03397865079039344,
+    "limit": 0.05,
+    "EB_metrics": {
+      "D_m": 0.030805051827690756,
+      "rotation_norm_rad": 0.004349184736483311,
+      "stress_envelope_Pa": 113475791.32370648,
+      "N_N": 0.0,
+      "V_N": 323004.9753324609,
+      "T_Nm": 323556.22624148644,
+      "B_Nm": 834886.1463578136,
+      "relative_translation": 0.0013571688899170504,
+      "compression_euler_ratio": 0.0,
+      "bearing_force_N": 760565.7116260056,
+      "bearing_torque_Nm": 1481998.5988405694
+    },
+    "Timoshenko_metrics": {
+      "D_m": 0.031888582848500484,
+      "rotation_norm_rad": 0.004347279362304199,
+      "stress_envelope_Pa": 113475791.32370158,
+      "N_N": 0.0,
+      "V_N": 323004.97533133486,
+      "T_Nm": 323556.2262413176,
+      "B_Nm": 834886.1463578092,
+      "relative_translation": 0.001431002139110516,
+      "compression_euler_ratio": 0.0,
+      "bearing_force_N": 760407.9943628614,
+      "bearing_torque_Nm": 1481998.5988404402
+    },
+    "scope": "same native engine, different beam formulation; not independent full-system shear verification"
+  }
+]

@@ -1,0 +1,97 @@
+configuration,state,comparison_scope,label,passed,max_error,max_ratio
+A0,P,JS_vs_native,displacement,True,2.688821387764051e-15,1.2506535453003803e-08
+A0,P,JS_vs_native,rotation,True,1.6761765586625899e-16,1.6647398932779878e-09
+A0,P,JS_vs_native,reaction_force,True,1.5686964616179466e-08,2.0009899989334703e-07
+A0,P,JS_vs_native,reaction_moment,True,1.4115357771515846e-09,1.3527316199843111e-08
+A0,P,JS_vs_native,end_force,True,3.843888407573104e-08,3.6538796495831353e-07
+A0,P,JS_vs_native,end_moment,True,3.336754161864519e-08,1.4757838503004206e-07
+A0,P,JS_vs_native,identity/order,True,,
+A0,P,JS_vs_native,cable state identity,True,,
+A0,P,JS_vs_archived_JS,displacement,True,0.0,0.0
+A0,P,JS_vs_archived_JS,rotation,True,0.0,0.0
+A0,P,JS_vs_archived_JS,reaction_force,True,0.0,0.0
+A0,P,JS_vs_archived_JS,reaction_moment,True,0.0,0.0
+A0,P,JS_vs_archived_JS,end_force,True,0.0,0.0
+A0,P,JS_vs_archived_JS,end_moment,True,0.0,0.0
+A0,P,JS_vs_archived_JS,identity/order,True,,
+A0,P,JS_vs_archived_JS,cable state identity,True,,
+A0,P,native_vs_archived_native,displacement,True,0.0,0.0
+A0,P,native_vs_archived_native,rotation,True,0.0,0.0
+A0,P,native_vs_archived_native,reaction_force,True,0.0,0.0
+A0,P,native_vs_archived_native,reaction_moment,True,0.0,0.0
+A0,P,native_vs_archived_native,end_force,True,0.0,0.0
+A0,P,native_vs_archived_native,end_moment,True,0.0,0.0
+A0,P,native_vs_archived_native,identity/order,True,,
+A0,P,native_vs_archived_native,cable state identity,True,,
+A0,U,JS_vs_native,displacement,True,5.68295410730002e-15,2.5499139775188847e-08
+A0,U,JS_vs_native,rotation,True,5.130444680201407e-16,5.088093126122459e-09
+A0,U,JS_vs_native,reaction_force,True,1.0717485565692186e-08,1.3650841263985182e-07
+A0,U,JS_vs_native,reaction_moment,True,1.8044374883174896e-09,9.729484111322853e-09
+A0,U,JS_vs_native,end_force,True,6.332993507385254e-08,8.604495214558663e-07
+A0,U,JS_vs_native,end_moment,True,1.25883161672391e-07,1.2568537416957933e-06
+A0,U,JS_vs_native,identity/order,True,,
+A0,U,JS_vs_native,cable state identity,True,,
+A0,U,JS_vs_archived_JS,displacement,True,0.0,0.0
+A0,U,JS_vs_archived_JS,rotation,True,0.0,0.0
+A0,U,JS_vs_archived_JS,reaction_force,True,0.0,0.0
+A0,U,JS_vs_archived_JS,reaction_moment,True,0.0,0.0
+A0,U,JS_vs_archived_JS,end_force,True,0.0,0.0
+A0,U,JS_vs_archived_JS,end_moment,True,0.0,0.0
+A0,U,JS_vs_archived_JS,identity/order,True,,
+A0,U,JS_vs_archived_JS,cable state identity,True,,
+A0,U,native_vs_archived_native,displacement,True,0.0,0.0
+A0,U,native_vs_archived_native,rotation,True,0.0,0.0
+A0,U,native_vs_archived_native,reaction_force,True,0.0,0.0
+A0,U,native_vs_archived_native,reaction_moment,True,0.0,0.0
+A0,U,native_vs_archived_native,end_force,True,0.0,0.0
+A0,U,native_vs_archived_native,end_moment,True,0.0,0.0
+A0,U,native_vs_archived_native,identity/order,True,,
+A0,U,native_vs_archived_native,cable state identity,True,,
+A1,P,JS_vs_native,displacement,True,7.278899705198683e-15,3.3773596653804845e-08
+A1,P,JS_vs_native,rotation,True,3.6201510539290993e-16,3.5962172262231927e-09
+A1,P,JS_vs_native,reaction_force,True,1.1230440577492118e-08,1.999940033852801e-07
+A1,P,JS_vs_native,reaction_moment,True,3.195054887328297e-09,3.065502771810915e-08
+A1,P,JS_vs_native,end_force,True,2.5374902179464698e-08,3.1892086633801344e-07
+A1,P,JS_vs_native,end_moment,True,6.874324753880501e-08,3.0943138905013185e-07
+A1,P,JS_vs_native,identity/order,True,,
+A1,P,JS_vs_native,cable state identity,True,,
+A1,U,JS_vs_native,displacement,True,4.288236432614667e-15,1.8820954606265862e-08
+A1,U,JS_vs_native,rotation,True,3.6765295668983455e-16,3.6414395453494525e-09
+A1,U,JS_vs_native,reaction_force,True,1.5897967386990786e-08,2.0249172338096528e-07
+A1,U,JS_vs_native,reaction_moment,True,2.852175384759903e-09,9.381570460733814e-09
+A1,U,JS_vs_native,end_force,True,7.031485438346863e-08,7.78703191858555e-07
+A1,U,JS_vs_native,end_moment,True,9.379436960443854e-08,6.909795532024995e-07
+A1,U,JS_vs_native,identity/order,True,,
+A1,U,JS_vs_native,cable state identity,True,,
+A2,P,JS_vs_native,displacement,True,4.277828091758806e-15,1.9897164986396997e-08
+A2,P,JS_vs_native,rotation,True,2.706168622523819e-16,2.6876095509453014e-09
+A2,P,JS_vs_native,reaction_force,True,1.5814293874427676e-08,2.0172361112920297e-07
+A2,P,JS_vs_native,reaction_moment,True,1.7944330465979874e-09,1.71980018433324e-08
+A2,P,JS_vs_native,end_force,True,2.336309989914298e-08,2.217963629738629e-07
+A2,P,JS_vs_native,end_moment,True,5.339097697287798e-08,2.3700360795415228e-07
+A2,P,JS_vs_native,identity/order,True,,
+A2,P,JS_vs_native,cable state identity,True,,
+A2,U,JS_vs_native,displacement,True,5.2388648974499574e-15,2.2626352140750853e-08
+A2,U,JS_vs_native,rotation,True,3.7990444123892075e-16,3.788863039434392e-09
+A2,U,JS_vs_native,reaction_force,True,1.5177647583186626e-08,1.846260815446173e-07
+A2,U,JS_vs_native,reaction_moment,True,3.7834979593753815e-09,1.1827175123802122e-08
+A2,U,JS_vs_native,end_force,True,5.320180207490921e-08,7.127827757498018e-07
+A2,U,JS_vs_native,end_moment,True,9.957147995010018e-08,7.645996017738503e-07
+A2,U,JS_vs_native,identity/order,True,,
+A2,U,JS_vs_native,cable state identity,True,,
+A3,P,JS_vs_native,displacement,True,5.528563717938084e-15,2.5763136327802393e-08
+A3,P,JS_vs_native,rotation,True,3.196228004487267e-16,3.174988437968155e-09
+A3,P,JS_vs_native,reaction_force,True,1.5890691429376602e-08,2.026977400332921e-07
+A3,P,JS_vs_native,reaction_moment,True,2.672095433808863e-09,2.563918289232341e-08
+A3,P,JS_vs_native,end_force,True,4.678076948039234e-08,6.392851585041199e-07
+A3,P,JS_vs_native,end_moment,True,6.188929546624422e-08,2.795864143616025e-07
+A3,P,JS_vs_native,identity/order,True,,
+A3,P,JS_vs_native,cable state identity,True,,
+A3,U,JS_vs_native,displacement,True,4.097416850257218e-15,1.8365544915686345e-08
+A3,U,JS_vs_native,rotation,True,4.469623456071492e-16,4.448955670066187e-09
+A3,U,JS_vs_native,reaction_force,True,1.7196725821122527e-08,2.19036767054966e-07
+A3,U,JS_vs_native,reaction_moment,True,1.5133991837501526e-09,5.117859927251183e-09
+A3,U,JS_vs_native,end_force,True,5.342008080333471e-08,6.837766814246516e-07
+A3,U,JS_vs_native,end_moment,True,9.99571057036519e-08,7.377893509999047e-07
+A3,U,JS_vs_native,identity/order,True,,
+A3,U,JS_vs_native,cable state identity,True,,

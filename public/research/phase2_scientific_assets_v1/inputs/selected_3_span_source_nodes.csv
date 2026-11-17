@@ -1,0 +1,15 @@
+source_node_id,x_m,y_m,z_m,station,side,proposed_vertical_bearing,proposed_roll_rx_restraint,new_ux_datum,new_uz_guide,source_hanger_id
+10,-18,-0.65,-7.4,10,0,True,True,True,True,2662
+11,-12,-0.65,-7.4,11,0,False,False,False,False,2663
+12,-6,-0.65,-7.4,12,0,True,True,False,False,2664
+13,0,-0.65,-7.4,13,0,False,False,False,False,2665
+14,6,-0.65,-7.4,14,0,True,True,False,False,2666
+15,12,-0.65,-7.4,15,0,False,False,False,False,2667
+16,18,-0.65,-7.4,16,0,True,True,False,True,2668
+192,-18,-0.65,7.4,10,1,True,True,False,False,2675
+193,-12,-0.65,7.4,11,1,False,False,False,False,2676
+194,-6,-0.65,7.4,12,1,True,True,False,False,2677
+195,0,-0.65,7.4,13,1,False,False,False,False,2678
+196,6,-0.65,7.4,14,1,True,True,False,False,2679
+197,12,-0.65,7.4,15,1,False,False,False,False,2680
+198,18,-0.65,7.4,16,1,True,True,False,False,2681

@@ -1,0 +1,53 @@
+{
+  "status": "FULL_COMPUTATIONAL_PASS",
+  "calls": 26,
+  "unused": 0,
+  "new_numerical_checks": 6806,
+  "inherited_physical_screens": 390,
+  "reserved_displacement_pass": 25,
+  "reserved_displacement_valid_fail": 1,
+  "independent_EB_pairs": 8,
+  "independent_EB_assertions": 11774,
+  "max_independent_tolerance_ratio": 0.6541464244946837,
+  "mesh_comparisons": 12,
+  "mesh_assertions": 96,
+  "max_mesh_tolerance_ratio": 5.606680107501705e-09,
+  "native_shear_comparisons": 4,
+  "max_native_shear_difference": 0.033978650790629845,
+  "maximum_free_force_residual_N": 1.099519431591034e-05,
+  "maximum_free_moment_residual_Nm": 5.401670932769775e-07,
+  "maximum_global_force_defect_N": 4.824250936508179e-06,
+  "maximum_global_moment_defect_Nm": 0.0001732371356411022,
+  "mass": {
+    "pass": true,
+    "uniform_mass_kg": 78149.07868363462,
+    "candidate_mass_kg": 75987.63571417955,
+    "saving_kg": 2161.442969455078,
+    "saving_percent": 2.765794563241231,
+    "mass_resolution_kg": 1.5649815736726925e-05,
+    "bracket_width_kg": 238.4632984223863,
+    "candidate_walls_m": {
+      "DL": 0.02829,
+      "DT": 0.026404,
+      "DT_end": 0.021404
+    },
+    "affected_parent_ids": [
+      1520,
+      1538
+    ],
+    "rule": "registered V2 terminal decrement only"
+  },
+  "preparation_preservation": {
+    "locked_files_unchanged": 272,
+    "preparation_manifest_entries_unchanged": 277,
+    "source_input_lock": "60177bf1a28d9531ef6718ca5a859b171aa76adfa60afaa8ed2734e3a7257649",
+    "original_preparation_archive_sha256": "0745e46b65f7515660ed4d85f845a33fbdfaae494b2f10085e1df622217b7293",
+    "archive_sha_matches": true,
+    "expected_new_state_file": "execution_release_consumed.json",
+    "source_or_threshold_edits": 0,
+    "mechanical_solve_calls": 26,
+    "unused_calls": 0,
+    "retries": 0,
+    "postprocessing_additional_solves": 0
+  }
+}

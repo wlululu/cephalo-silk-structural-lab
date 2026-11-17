@@ -1,0 +1,262 @@
+[
+  {
+    "slot": 1,
+    "configuration": "F-L",
+    "mapping_role": "U",
+    "alpha_fraction": "94/100",
+    "load_case": "LC-U",
+    "mesh": "refined",
+    "engine": "OpenSees_Timoshenko",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 2,
+    "configuration": "F-L",
+    "mapping_role": "U",
+    "alpha_fraction": "94/100",
+    "load_case": "LC-E",
+    "mesh": "refined",
+    "engine": "OpenSees_Timoshenko",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 3,
+    "configuration": "F-U",
+    "mapping_role": "U",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-U",
+    "mesh": "refined",
+    "engine": "OpenSees_Timoshenko",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 4,
+    "configuration": "F-U",
+    "mapping_role": "U",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-E",
+    "mesh": "refined",
+    "engine": "OpenSees_Timoshenko",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 5,
+    "configuration": "U",
+    "mapping_role": "U",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-U",
+    "mesh": "base",
+    "engine": "JS_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 6,
+    "configuration": "U",
+    "mapping_role": "U",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-U",
+    "mesh": "base",
+    "engine": "OpenSees_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 7,
+    "configuration": "U",
+    "mapping_role": "U",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-E",
+    "mesh": "base",
+    "engine": "JS_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 8,
+    "configuration": "U",
+    "mapping_role": "U",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-E",
+    "mesh": "base",
+    "engine": "OpenSees_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 9,
+    "configuration": "U",
+    "mapping_role": "U",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-U",
+    "mesh": "refined",
+    "engine": "JS_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 10,
+    "configuration": "U",
+    "mapping_role": "U",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-U",
+    "mesh": "refined",
+    "engine": "OpenSees_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 11,
+    "configuration": "U",
+    "mapping_role": "U",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-E",
+    "mesh": "refined",
+    "engine": "JS_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 12,
+    "configuration": "U",
+    "mapping_role": "U",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-E",
+    "mesh": "refined",
+    "engine": "OpenSees_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 13,
+    "configuration": "U",
+    "mapping_role": "U",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-U",
+    "mesh": "base",
+    "engine": "OpenSees_Timoshenko",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 14,
+    "configuration": "U",
+    "mapping_role": "U",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-E",
+    "mesh": "base",
+    "engine": "OpenSees_Timoshenko",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 15,
+    "configuration": "V",
+    "mapping_role": "V2",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-U",
+    "mesh": "base",
+    "engine": "JS_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 16,
+    "configuration": "V",
+    "mapping_role": "V2",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-U",
+    "mesh": "base",
+    "engine": "OpenSees_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 17,
+    "configuration": "V",
+    "mapping_role": "V2",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-E",
+    "mesh": "base",
+    "engine": "JS_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 18,
+    "configuration": "V",
+    "mapping_role": "V2",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-E",
+    "mesh": "base",
+    "engine": "OpenSees_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 19,
+    "configuration": "V",
+    "mapping_role": "V2",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-U",
+    "mesh": "refined",
+    "engine": "OpenSees_Timoshenko",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 20,
+    "configuration": "V",
+    "mapping_role": "V2",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-E",
+    "mesh": "refined",
+    "engine": "OpenSees_Timoshenko",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 21,
+    "configuration": "V",
+    "mapping_role": "V2",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-U",
+    "mesh": "refined",
+    "engine": "JS_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 22,
+    "configuration": "V",
+    "mapping_role": "V2",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-U",
+    "mesh": "refined",
+    "engine": "OpenSees_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 23,
+    "configuration": "V",
+    "mapping_role": "V2",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-E",
+    "mesh": "refined",
+    "engine": "JS_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 24,
+    "configuration": "V",
+    "mapping_role": "V2",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-E",
+    "mesh": "refined",
+    "engine": "OpenSees_EB",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 25,
+    "configuration": "V",
+    "mapping_role": "V2",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-U",
+    "mesh": "base",
+    "engine": "OpenSees_Timoshenko",
+    "status": "PROPOSED_NOT_EXECUTED"
+  },
+  {
+    "slot": 26,
+    "configuration": "V",
+    "mapping_role": "V2",
+    "alpha_fraction": "943/1000",
+    "load_case": "LC-E",
+    "mesh": "base",
+    "engine": "OpenSees_Timoshenko",
+    "status": "PROPOSED_NOT_EXECUTED"
+  }
+]

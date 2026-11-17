@@ -14,7 +14,10 @@
     "test:blender": "python3 tests/blender-compatibility.py && node tests/blender-package.mjs && node tests/blender-adapters.mjs && node tests/blender-vite.mjs",
     "test:preservation": "node tests/preservation.mjs",
     "test:integration": "node tests/integration.mjs",
-    "test:static": "node tests/static.mjs"
+    "test:static": "node tests/static.mjs",
+    "package:research": "node scripts/package-research-data.mjs",
+    "test:research": "node tests/research-static.mjs && node tests/research-distribution.mjs && node tests/research-downloads.mjs && node tests/research-public-scope.mjs",
+    "test:branding": "node tests/public-branding.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

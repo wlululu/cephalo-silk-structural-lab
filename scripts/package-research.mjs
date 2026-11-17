@@ -6,12 +6,14 @@ const root=path.resolve(import.meta.dirname,'..');
 const out=path.join(root,'dist/downloads/cephalo-structural-lab.zip');
 if(!fs.existsSync(path.join(root,'dist/index.html'))) throw Error('Build dist/ first.');
 // An editable source archive, without recursive builds, dependencies or local state.
-const excluded=new Set(['node_modules','dist','.git','test-output','publication_exports']);
+const excluded=new Set(['node_modules','dist','.git','test-output','publication_exports','release-assets']);
 const entries={};
 function collect(dir){
   for(const item of fs.readdirSync(dir,{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name))){
-    if(excluded.has(item.name)||item.name.startsWith('.env')||/\.(log|tsbuildinfo)$/.test(item.name))continue;
+    if(excluded.has(item.name)||item.name.startsWith('.env')||/\.tsbuildinfo$/.test(item.name)||/\.log$/.test(item.name))continue;
     const file=path.join(dir,item.name);
+    // Complete archival payloads are separate release assets, not website source downloads.
+    if(path.relative(root,file).split(path.sep).join('/')==='research-data/files')continue;
     if(item.isDirectory())collect(file);
     else if(item.isFile())entries['cephalo-structural-lab/'+path.relative(root,file).split(path.sep).join('/')]=[fs.readFileSync(file),{mtime:new Date('2026-01-01T00:00:00Z')}];
   }
